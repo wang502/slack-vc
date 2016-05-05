@@ -88,7 +88,7 @@ def getKPCBPortfolio():
                 companies[name] = url
     return companies
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 	#print geta16zPortfilio()
     #print getKhoslaPortfolio()
     #print getSequoiaPortfolio()
