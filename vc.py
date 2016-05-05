@@ -10,7 +10,7 @@ portfolio_dict = {
     "Sequoia": "https://www.sequoiacap.com/companies/",
     "First round": "http://firstround.com/companies",
     "KPCB": "http://www.kpcb.com/companies",
-    "Greylock": "http://www.greylock.com/greylock-companies"
+    "Greylock": "http://www.greylock.com/greylock-companies",
 }
 
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
@@ -92,4 +92,4 @@ if __name__ == "__main__":
 	#print geta16zPortfilio()
     #print getKhoslaPortfolio()
     #print getSequoiaPortfolio()
-    print getKPCBPortfolio()
+    #print getKPCBPortfolio()
