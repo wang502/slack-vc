@@ -53,7 +53,7 @@ def getKhoslaPortfolio():
                 for li in company.findAll('a'):
                     t = li.get_text()
                     u = li.get('href')
-                    companies[t] = portfolio_dict['Khosla'] + u
+                    companies[t] = "http://www.khoslaventures.com" + u
     return companies
 
 # Crawl the portfolio list of Sequoia Cap
