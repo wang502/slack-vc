@@ -16,7 +16,7 @@ def hello():
     result = vc.getPortfolio(arr[0]) if arr[1] == "portfolio" else vc.getKhoslaPortfolio()
     response = ""
     for k, v in result.iteritems():
-        response += "<" + v + "|" + k.strip() + ">\n"
+        response += "<" + v.strip() + "|" + k.strip() + ">\n"
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
