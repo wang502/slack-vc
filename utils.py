@@ -1,5 +1,5 @@
 # Extract the company name from the url
-def extract_name(url):
+def extract_name_from_url(url):
     name = ""
     if url[0:4] == "http":
         arr = url.split('.')
@@ -25,8 +25,15 @@ def extract_name(url):
         left+=1
         name =  url[left:l]
     return name
-    
-"""
-if __name__ == "__main__":
-    print extract_name("/companies/twitter")
-    print extract_name("http://www.dji.com")"""
+
+def extract_name_from_string(s):
+    i = 0
+    while i <len(s):
+        if s[i] == '\n' or s[i] == ' ' or s[i] == '\t':
+            break
+        else:
+            i += 1
+    return s[:i]
+
+#if __name__ == "__main__":
+#    print extract_name_from_string("Percolate\nMarketing platform that helps brands create and manage content and social media at scale.")

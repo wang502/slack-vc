@@ -1,6 +1,7 @@
 from flask import Flask, request, Response, redirect
 import vc
 import os
+import utils
 
 app = Flask(__name__)
 
@@ -16,7 +17,7 @@ def hello():
     result = vc.getPortfolio(arr[0]) if arr[1] == "portfolio" else vc.getKhoslaPortfolio()
     response = ""
     for k, v in result.iteritems():
-        response += "<" + v.strip() + "|" + k.strip() + ">"
+        response +=  ":money_mouth_face:"+ "<" + v.strip() + "|" + utils.extract_name_from_string(k.strip()) + ">\n"
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":

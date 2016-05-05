@@ -28,7 +28,7 @@ def geta16zPortfilio():
         if t[0] == "C":
             company = t[9:]
         if t[1] == "W":
-            companies[company] = t[9:]
+            companies[company] = "http://" + t[9:]
     #print companies["Zulily"]
     return companies
 
@@ -84,7 +84,7 @@ def getKPCBPortfolio():
                 url = a.get('href')
                 if url[0] == '/':
                     url = "http://www.kpcb.com" + url
-                name = utils.extract_name(a.get('href'))
+                name = utils.extract_name_from_url(a.get('href'))
                 companies[name] = url
     return companies
 
