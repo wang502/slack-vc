@@ -7,19 +7,18 @@ app = Flask(__name__)
 @app.route("/", methods=['post'])
 def hello():
     '''
+    Example message:
     /vc a16z portfolio
     '''
     message = request.values.get('text')
 
     arr = message.split(" ")
-    portfolio = {}
-    if arr[1] == "portfolio":
-        print arr[0]
-        portfolio = vc.getPortfolio(arr[0])
-    else:
-        portfolio = vc.getKhoslaPortfolio()
-    print portfolio
-    return Response(str(portfolio), content_type='text/plain;charset=utf-8')
+    result = vc.getPortfolio(arr[0]) if arr[1] == "portfolio" else vc.getKhoslaPortfolio()
+    response = ""
+    for k, v in result.iteritems():
+        response += "<" + v + "|" + k.strip() + ">\n"
+    print response
+    return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
