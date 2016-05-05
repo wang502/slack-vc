@@ -17,7 +17,6 @@ def hello():
     response = ""
     for k, v in result.iteritems():
         response += "<" + v + "|" + k.strip() + ">\n"
-    print response
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
