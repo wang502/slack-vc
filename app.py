@@ -15,9 +15,9 @@ def hello():
 
     arr = message.split(" ")
     result = vc.getPortfolio(arr[0]) if arr[1] == "portfolio" else vc.getKhoslaPortfolio()
-    response = ""
+    response = "This is " + arr[0] + "'s portfolio: \n"
     for k, v in result.iteritems():
-        response +=  ":money_mouth_face:"+ "<" + v.strip() + "|" + utils.extract_name_from_string(k.strip()) + ">\n"
+        response +=  ":money_mouth_face: "+ "<" + v.strip() + "|" + utils.extract_name_from_string(k.strip()) + ">\n"
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
