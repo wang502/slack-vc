@@ -4,9 +4,20 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=['post'])
 def hello():
-    portfolio = vc.getKhoslaPortfolio()
+    '''
+    /vc a16z portfolio
+    '''
+    message = request.values.get('text')
+
+    arr = message.split(" ")
+    portfolio = {}
+    if arr[1] == "portfolio":
+        print arr[0]
+        portfolio = vc.getPortfolio(arr[0])
+    else:
+        portfolio = vc.getKhoslaPortfolio()
     print portfolio
     return Response(str(portfolio), content_type='text/plain;charset=utf-8')
 

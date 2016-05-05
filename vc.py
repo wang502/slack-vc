@@ -88,6 +88,16 @@ def getKPCBPortfolio():
                 companies[name] = url
     return companies
 
+def getPortfolio(vc):
+    if vc == "a16z":
+        return geta16zPortfilio()
+    elif vc == "Khosla":
+        return getKhoslaPortfolio()
+    elif vc == "Sequoia":
+        return getSequoiaPortfolio()
+    elif vc == "KPCB":
+        return getKPCBPortfolio()
+
 #if __name__ == "__main__":
 	#print geta16zPortfilio()
     #print getKhoslaPortfolio()
