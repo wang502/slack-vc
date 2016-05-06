@@ -10,15 +10,16 @@ app = Flask(__name__)
 def hello():
     '''
     Example message:
-    /vc a16z portfolio
+    /vc a16z p
     '''
     message = request.values.get('text')
 
     arr = message.split(" ")
     result = vc.getPortfolio(arr[0]) if arr[1] == "p" else vc.getKhoslaPortfolio()
+    result = collections.OrderedDict(sorted(result.items()))
+
     response = ":innocent: This is " + arr[0] + "'s portfolio: \n"
     i = 1
-    result = collections.OrderedDict(sorted(result.items()))
     for k, v in result.items():
         response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
         i += 1

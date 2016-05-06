@@ -28,8 +28,7 @@ def geta16zPortfilio():
         if t[0] == "C":
             company = t[9:]
         if t[1] == "W":
-            companies[company] = "http://" + t[9:]
-    #print companies["Zulily"]
+            companies[company] = "http://" + t[10:]
     return companies
 
 # Crawl the portfolio list of Khosla Venture
