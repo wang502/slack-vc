@@ -18,7 +18,7 @@ def hello():
     result = vc.getPortfolio(arr[0]) if arr[1] == "p" else vc.getKhoslaPortfolio()
     result = collections.OrderedDict(sorted(result.items()))
 
-    response = ":innocent: This is " + arr[0] + "'s portfolio: \n"
+    response = ":innocent: This is " + arr[0] + "'s portfolio: \n\n"
     i = 1
     for k, v in result.items():
         response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"

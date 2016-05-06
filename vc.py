@@ -5,12 +5,12 @@ import utils
 
 portfolio_dict = {
     "a16z": "http://a16z.com/portfolio/venture-growth/",
-    "Khosla": "http://www.khoslaventures.com/portfolio",
-    "Accel": "http://www.accel.com/companies/",
-    "Sequoia": "https://www.sequoiacap.com/companies/",
-    "First round": "http://firstround.com/companies",
-    "KPCB": "http://www.kpcb.com/companies",
-    "Greylock": "http://www.greylock.com/greylock-companies",
+    "khosla": "http://www.khoslaventures.com/portfolio",
+    "accel": "http://www.accel.com/companies/",
+    "sequoia": "https://www.sequoiacap.com/companies/",
+    "first round": "http://firstround.com/companies",
+    "kpcb": "http://www.kpcb.com/companies",
+    "greylock": "http://www.greylock.com/greylock-companies",
 }
 
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
@@ -33,14 +33,14 @@ def geta16zPortfilio():
 
 # Crawl the portfolio list of Khosla Venture
 def getKhoslaPortfolio():
-    url = portfolio_dict['Khosla']
+    url = portfolio_dict['khosla']
     http = httplib2.Http()
     status, response = http.request(url)
     soup = BeautifulSoup(response)
     companies = {}
     cstring = ""
     for industry in industries:
-        url = portfolio_dict['Khosla'] + "/" + industry
+        url = portfolio_dict['khosla'] + "/" + industry
         status, response = http.request(url)
         soup = BeautifulSoup(response)
         for i in range(1, 10):
@@ -57,7 +57,7 @@ def getKhoslaPortfolio():
 
 # Crawl the portfolio list of Sequoia Cap
 def getSequoiaPortfolio():
-    url = portfolio_dict['Sequoia']
+    url = portfolio_dict['sequoia']
     http = httplib2.Http()
     status, response = http.request(url)
     soup = BeautifulSoup(response)
@@ -70,7 +70,7 @@ def getSequoiaPortfolio():
 
 # Crawl the portfolio list of KPCB ventures
 def getKPCBPortfolio():
-    url = portfolio_dict['KPCB']
+    url = portfolio_dict['kpcb']
     http = httplib2.Http()
     status, response = http.request(url)
     soup = BeautifulSoup(response)
@@ -88,13 +88,14 @@ def getKPCBPortfolio():
     return companies
 
 def getPortfolio(vc):
+    vc = vc.lower()
     if vc == "a16z":
         return geta16zPortfilio()
-    elif vc == "Khosla":
+    elif vc == "khosla":
         return getKhoslaPortfolio()
-    elif vc == "Sequoia":
+    elif vc == "sequoia":
         return getSequoiaPortfolio()
-    elif vc == "KPCB":
+    elif vc == "kpcb":
         return getKPCBPortfolio()
 
 #if __name__ == "__main__":
