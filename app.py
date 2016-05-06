@@ -2,6 +2,7 @@ from flask import Flask, request, Response, redirect
 import vc
 import os
 import utils
+import collections
 
 app = Flask(__name__)
 
@@ -14,10 +15,13 @@ def hello():
     message = request.values.get('text')
 
     arr = message.split(" ")
-    result = vc.getPortfolio(arr[0]) if arr[1] == "portfolio" else vc.getKhoslaPortfolio()
-    response = "This is " + arr[0] + "'s portfolio: \n"
-    for k, v in result.iteritems():
-        response +=  ":money_mouth_face: "+ "<" + v.strip() + "|" + utils.extract_name_from_string(k.strip()) + ">\n"
+    result = vc.getPortfolio(arr[0]) if arr[1] == "p" else vc.getKhoslaPortfolio()
+    response = ":innocent: This is " + arr[0] + "'s portfolio: \n"
+    i = 1
+    result = collections.OrderedDict(sorted(result.items()))
+    for k, v in result.items():
+        response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
+        i += 1
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
