@@ -122,7 +122,7 @@ def getPortfolio(vc):
         return getKhoslaPortfolio()
     elif vc == "sequoia":
         return getSequoiaPortfolio()
-    elif vc = "ff":
+    elif vc == "ff":
         return getFFPortfolio()
     elif vc == "kpcb":
         return getKPCBPortfolio()
