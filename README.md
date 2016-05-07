@@ -1,6 +1,6 @@
 #Slack-VC
 Slack-VC is a Slack integration to look up famous Venture Capital's portfolio list. It's built for startup enthusiasts! 😇
-![Example](http://g.recordit.co/oHPpscdJ80.gif)
+![Example](http://g.recordit.co/F1OKTHKVfu.gif)
 
 ## Coverage
 Currently, the VCs supported and corresponding commands:
