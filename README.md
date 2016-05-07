@@ -5,12 +5,12 @@ Slack-VC is a Slack integration to look up famous Venture Capital's portfolio li
 ## Coverage
 Currently, the VCs supported and corresponding commands:
 
-- [a16z](http://a16z.com/): /vc a16z p
-- [Khosla Ventures](http://www.khoslaventures.com/): /vc khosla p
-- [Sequoia Capital](https://www.sequoiacap.com/): /vc sequoia p
-- [KPCB](http://www.kpcb.com/): /vc kpcb p
-- [Founders Fund](http://foundersfund.com/): /vc ff p
-- [GreyLock Partners](http://www.greylock.com/): /vc greylock p
+- [a16z](http://a16z.com/) (a16z)
+- [Khosla Ventures](http://www.khoslaventures.com/) (khosla)
+- [Sequoia Capital](https://www.sequoiacap.com/) (sequoia)
+- [KPCB](http://www.kpcb.com/) (kpcb)
+- [Founders Fund](http://foundersfund.com/) (ff)
+- [GreyLock Partners](http://www.greylock.com/) (greylock)
 
 ## Integrate with your Slack
 
@@ -27,5 +27,10 @@ Currently, the VCs supported and corresponding commands:
   - In the Autocomplete help text section, check to allow autocomplete.
     - Description: VC's portfolio list, articles is in Slack now!
     - Usage hint: [VC name +  Space + Option]
-    
+
 7. All set!
+
+## Usage
+After adding Slack-VC integration to your team, within any channel of your team,
+- To look up portfolio, type **/vc [VC name + space + p]**
+  - For example: **/vc a16z p**
