@@ -1,4 +1,6 @@
 # Extract the company name from the url
+# url format:
+# http://www.flexusbio.com/ or http://flexusbio.com/
 def extract_name_from_url(url):
     name = ""
     if url[0:4] == "http":

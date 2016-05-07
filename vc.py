@@ -6,11 +6,12 @@ import utils
 portfolio_dict = {
     "a16z": "http://a16z.com/portfolio/venture-growth/",
     "khosla": "http://www.khoslaventures.com/portfolio",
-    "accel": "http://www.accel.com/companies/",
+    #"accel": "http://www.accel.com/companies/",
     "sequoia": "https://www.sequoiacap.com/companies/",
-    "first round": "http://firstround.com/companies",
+    #"first round": "http://firstround.com/companies",
     "kpcb": "http://www.kpcb.com/companies",
-    "greylock": "http://www.greylock.com/greylock-companies",
+    "ff": "http://foundersfund.com/portfolio/",
+    #"greylock": "http://www.greylock.com/greylock-companies",
 }
 
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
@@ -87,6 +88,32 @@ def getKPCBPortfolio():
                 companies[name] = url
     return companies
 
+# crawl portfolio list of Founder Fund
+def getFFPortfolio():
+    url = portfolio_dict['ff']
+    # mock a browser
+    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+    headers = { 'User-Agent' : user_agent }
+    
+    http = httplib2.Http()
+    status, response = http.request(url, 'GET', None, headers)
+    soup = BeautifulSoup(response)
+    companies = {}
+    name = ""
+    for a in soup.find("ul", {"class":"portfolio"}).findAll('a'):
+        url = str(a.get('href'))
+        url_l = url.split('/')
+        name = url_l[len(url_l)-2]
+
+        formatted_name = ""
+        formatted_name += name[0].upper()
+
+        for c in name[1:]:
+            formatted_name += c
+        companies[formatted_name] = url
+    return companies
+
+
 def getPortfolio(vc):
     vc = vc.lower()
     if vc == "a16z":
@@ -95,11 +122,14 @@ def getPortfolio(vc):
         return getKhoslaPortfolio()
     elif vc == "sequoia":
         return getSequoiaPortfolio()
+    elif vc = "ff":
+        return getFFPortfolio()
     elif vc == "kpcb":
         return getKPCBPortfolio()
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
 	#print geta16zPortfilio()
     #print getKhoslaPortfolio()
     #print getSequoiaPortfolio()
     #print getKPCBPortfolio()
+    #print getFFPortfolio()
