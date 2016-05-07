@@ -21,10 +21,11 @@ Currently, the VCs supported and corresponding commands:
 5. Click **Slash Commands**.
 6. Click **Add Configuration**.
 
-- Command: /vc
-- URL: https://slack-vc.herokuapp.com/
-- Method: **POST**
-- In the Autocomplete help text section, check to allow autocomplete.
-  - Description: VC's portfolio list, articles is in Slack now!
-  - Usage hint: [VC name +  Space + Option]
+  - Command: /vc
+  - URL: https://slack-vc.herokuapp.com/
+  - Method: **POST**
+  - In the Autocomplete help text section, check to allow autocomplete.
+    - Description: VC's portfolio list, articles is in Slack now!
+    - Usage hint: [VC name +  Space + Option]
+    
 7. All set!
