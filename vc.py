@@ -89,7 +89,7 @@ def getKPCBPortfolio():
     return companies
 
 # crawl portfolio list of Founder Fund
-def getFFPortfolio():
+def getFoundersFundPortfolio():
     url = portfolio_dict['ff']
     # mock a browser
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
@@ -117,7 +117,7 @@ def getGreylockPortfolio():
     url = portfolio_dict['greylock']
     # mock browser header
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
-    headers = { 'User-Agent' : user_agent }
+    headers = { 'User-Agent' : user_agent } []
 
     http = httplib2.Http()
     status, response = http.request(url, 'GET', None, headers)
@@ -140,7 +140,7 @@ def getPortfolio(vc):
     elif vc == "sequoia":
         return getSequoiaPortfolio()
     elif vc == "ff":
-        return getFFPortfolio()
+        return getFoundersFundPortfolio()
     elif vc == "kpcb":
         return getKPCBPortfolio()
     elif vc == "greylock":
