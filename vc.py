@@ -94,7 +94,7 @@ def getFFPortfolio():
     # mock a browser
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
     headers = { 'User-Agent' : user_agent }
-    
+
     http = httplib2.Http()
     status, response = http.request(url, 'GET', None, headers)
     soup = BeautifulSoup(response)
@@ -127,7 +127,7 @@ def getPortfolio(vc):
     elif vc == "kpcb":
         return getKPCBPortfolio()
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 	#print geta16zPortfilio()
     #print getKhoslaPortfolio()
     #print getSequoiaPortfolio()
