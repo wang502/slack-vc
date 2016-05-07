@@ -1,6 +1,6 @@
 #Slack-VC
 Slack-VC is a Slack integration to look up famous Venture Capital's portfolio list. It's built for startup enthusiasts! 😇
-![Example](http://g.recordit.co/VjMbZJevur.gif)
+![Example](http://g.recordit.co/oHPpscdJ80.gif)
 
 ## Coverage
 Currently, the VCs supported and corresponding commands:
@@ -32,5 +32,5 @@ Currently, the VCs supported and corresponding commands:
 
 ## Usage
 After adding Slack-VC integration to your team, within any channel of your team,
-- To look up portfolio, type **/vc [VC name + space + p]**
+- To look up portfolio, in your input box, simply type **/vc [VC name + space + p]**
   - For example: **/vc a16z p**
