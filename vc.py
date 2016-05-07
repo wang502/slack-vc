@@ -12,6 +12,7 @@ portfolio_dict = {
     "kpcb": "http://www.kpcb.com/companies",
     "ff": "http://foundersfund.com/portfolio/",
     "greylock": "http://www.greylock.com/greylock-companies/",
+    "gv": "http://www.gv.com/portfolio/"
 }
 
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
@@ -117,7 +118,7 @@ def getGreylockPortfolio():
     url = portfolio_dict['greylock']
     # mock browser header
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
-    headers = { 'User-Agent' : user_agent } []
+    headers = { 'User-Agent' : user_agent }
 
     http = httplib2.Http()
     status, response = http.request(url, 'GET', None, headers)
@@ -129,6 +130,25 @@ def getGreylockPortfolio():
         link = url + str(i.get('href'))
         name = i.find('img').get('title')
         companies[name] = link
+    return companies
+
+def getGoogleVenturePostfolio():
+    url = portfolio_dict['gv']
+    # mock browser header
+    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+    headers = { 'User-Agent' : user_agent }
+
+    http = httplib2.Http()
+    status, response = http.request(url, 'GET', None, headers)
+
+    soup = BeautifulSoup(response)
+    companies = {}
+    name = ""
+    for div in soup.find_all("div", {"class":"grid-card-4"}):
+        a = div.find('a')
+        name = a.get('data-name')
+        url = a.get('href')
+        companies[name] = url
     return companies
 
 def getPortfolio(vc):
@@ -145,6 +165,8 @@ def getPortfolio(vc):
         return getKPCBPortfolio()
     elif vc == "greylock":
         return getGreylockPortfolio()
+    elif vc == "gv":
+        return getGoogleVenturePostfolio()
 
 #if __name__ == "__main__":
 	#print geta16zPortfilio()
@@ -152,4 +174,5 @@ def getPortfolio(vc):
     #print getSequoiaPortfolio()
     #print getKPCBPortfolio()
     #print getFFPortfolio()
-    #getGreylockPortfolio()
+    #print getGreylockPortfolio()
+    #print getGoogleVenturePostfolio()
