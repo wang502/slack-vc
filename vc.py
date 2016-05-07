@@ -11,7 +11,7 @@ portfolio_dict = {
     #"first round": "http://firstround.com/companies",
     "kpcb": "http://www.kpcb.com/companies",
     "ff": "http://foundersfund.com/portfolio/",
-    #"greylock": "http://www.greylock.com/greylock-companies",
+    "greylock": "http://www.greylock.com/greylock-companies/",
 }
 
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
@@ -113,6 +113,23 @@ def getFFPortfolio():
         companies[formatted_name] = url
     return companies
 
+def getGreylockPortfolio():
+    url = portfolio_dict['greylock']
+    # mock browser header
+    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+    headers = { 'User-Agent' : user_agent }
+
+    http = httplib2.Http()
+    status, response = http.request(url, 'GET', None, headers)
+
+    soup = BeautifulSoup(response)
+    companies = {}
+    name = ""
+    for i in soup.find("div", {"id":"filterset"}).findAll('a'):
+        link = url + str(i.get('href'))
+        name = i.find('img').get('title')
+        companies[name] = link
+    print companies
 
 def getPortfolio(vc):
     vc = vc.lower()
@@ -126,6 +143,8 @@ def getPortfolio(vc):
         return getFFPortfolio()
     elif vc == "kpcb":
         return getKPCBPortfolio()
+    elif vc == "greylock":
+        return getGreylockPortfolio()
 
 #if __name__ == "__main__":
 	#print geta16zPortfilio()
@@ -133,3 +152,4 @@ def getPortfolio(vc):
     #print getSequoiaPortfolio()
     #print getKPCBPortfolio()
     #print getFFPortfolio()
+    #getGreylockPortfolio()
