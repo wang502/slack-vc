@@ -129,7 +129,7 @@ def getGreylockPortfolio():
         link = url + str(i.get('href'))
         name = i.find('img').get('title')
         companies[name] = link
-    print companies
+    return companies
 
 def getPortfolio(vc):
     vc = vc.lower()
