@@ -6,11 +6,12 @@ Slack-VC is a Slack integration to look up famous Venture Capital's portfolio li
 Currently, the VCs supported and corresponding commands:
 
 - [a16z](http://a16z.com/) (a16z)
+- [Founders Fund](http://foundersfund.com/) (ff)
+- [Google Ventures](http://www.gv.com/) (gv)
+- [GreyLock Partners](http://www.greylock.com/) (greylock)
 - [Khosla Ventures](http://www.khoslaventures.com/) (khosla)
 - [Sequoia Capital](https://www.sequoiacap.com/) (sequoia)
 - [KPCB](http://www.kpcb.com/) (kpcb)
-- [Founders Fund](http://foundersfund.com/) (ff)
-- [GreyLock Partners](http://www.greylock.com/) (greylock)
 
 ## Integrate with your Slack
 

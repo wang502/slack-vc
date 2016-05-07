@@ -15,6 +15,16 @@ portfolio_dict = {
     "gv": "http://www.gv.com/portfolio/"
 }
 
+name_dict = {
+    "a16z": "Andreessen Horowitz",
+    "sequoia": "Sequoia Capital",
+    "khosla": "Khosla Ventures",
+    "kpcb": "KPCB Partners",
+    "ff": "Founders Fund",
+    "greylock": "Greylock Patrners",
+    "gv": "Google Ventures",
+}
+
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
 
 # Crawl the portfolio list of a16z
@@ -152,7 +162,7 @@ def getGoogleVenturePostfolio():
     return companies
 
 def getPortfolio(vc):
-    vc = vc.lower()
+    #vc = vc.lower()
     if vc == "a16z":
         return geta16zPortfilio()
     elif vc == "khosla":
@@ -167,6 +177,9 @@ def getPortfolio(vc):
         return getGreylockPortfolio()
     elif vc == "gv":
         return getGoogleVenturePostfolio()
+
+def getVCName(acronym):
+    return name_dict[acronym]
 
 #if __name__ == "__main__":
 	#print geta16zPortfilio()
