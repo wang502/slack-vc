@@ -27,7 +27,7 @@ def hello():
         result = vc.getInvestors(arr[0].lower())
         print result
         option = "investors"
-        response = ":innocent: This is " + arr[0].lower() + "'s investors: \n\n"
+        response = ":innocent: This is " + arr[0].lower() + "'s investors: \n"
     if option == "portfolio":
         i = 1
         for k, v in result.items():
@@ -35,9 +35,9 @@ def hello():
             i += 1
     elif option == "investors":
         for serie in result:
-            response += serie["round"].strip() + "(" + serie["year"] +"):\n"
+            response += str(serie["round"]).strip() + "(" + str(serie["year"]) +"):\n"
             for investor in serie["investors"]:
-                response += "<" + investor["link"] + "|" + investor["name"] + ">\n"
+                response += "<" + str(investor["link"]) + "|" + str(investor["name"]) + ">\n"
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
