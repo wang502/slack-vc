@@ -161,6 +161,40 @@ def getGoogleVenturePostfolio():
         companies[name] = url
     return companies
 
+def getInvestors(company):
+    #url = portfolio_dict['gv']
+    url = "https://angel.co/" + company
+    #url = "https://www.crunchbase.com/organization/facebook/investors?page=2"
+    # mock browser header
+    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+    headers = { 'User-Agent' : user_agent }
+
+    http = httplib2.Http()
+    status, response = http.request(url, 'GET', None, headers)
+
+    soup = BeautifulSoup(response)
+    investments = []
+    for series in soup.find_all("div", {"class":"show section"}):
+        serie = {}
+        r = series.find("div", {"class":"type"}).get_text()
+        year = series.find("div", {"class":"date_display"}).get_text()
+        serie["year"] = year
+        serie["round"] = r
+        href = ""
+        name = ""
+        investors = []
+        for vc in series.find_all("div", {"class":"text"}):
+            investor = {}
+            href = vc.find("a").get("href")
+            name = vc.find("a").get_text()
+            investor["link"] = href
+            investor["name"] = name
+            investors.append(investor)
+        serie["investors"] = investors
+        investments.append(serie)
+    return investments
+
+
 def getPortfolio(vc):
     #vc = vc.lower()
     if vc == "a16z":
@@ -189,3 +223,4 @@ def getVCName(acronym):
     #print getFFPortfolio()
     #print getGreylockPortfolio()
     #print getGoogleVenturePostfolio()
+    #getInvestors("slack")

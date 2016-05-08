@@ -15,14 +15,29 @@ def hello():
     message = request.values.get('text')
 
     arr = message.split(" ")
-    result = vc.getPortfolio(arr[0].lower()) if arr[1] == "p" else vc.getKhoslaPortfolio()
-    result = collections.OrderedDict(sorted(result.items()))
 
-    response = ":innocent: This is " + vc.getVCName(arr[0].lower()) + "'s portfolio: \n\n"
-    i = 1
-    for k, v in result.items():
-        response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
-        i += 1
+    result = {}
+    option = ""
+    response = ""
+    if arr[1] == "p":
+        result = vc.getPortfolio(arr[0].lower())
+        option = "portfolio"
+        response = ":innocent: This is " + vc.getVCName(arr[0].lower()) + "'s portfolio: \n\n"
+    else:
+        result = vc.getInvestors(arr[0].lower())
+        print result
+        option = "investors"
+        response = ":innocent: This is " + arr[0].lower() + "'s investors: \n\n"
+    if option == "portfolio":
+        i = 1
+        for k, v in result.items():
+            response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
+            i += 1
+    elif option == "investors":
+        for serie in result:
+            response += serie["round"].strip() + "(" + serie["year"] +"):\n"
+            for investor in serie["investors"]:
+                response += "<" + investor["link"] + "|" + investor["name"] + ">\n"
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
