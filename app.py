@@ -25,7 +25,6 @@ def hello():
         response = ":innocent: This is " + vc.getVCName(arr[0].lower()) + "'s portfolio: \n\n"
     else:
         result = vc.getInvestors(arr[0].lower())
-        print result
         option = "investors"
         response = ":innocent: This is " + arr[0].lower() + "'s investors: \n"
     if option == "portfolio":
