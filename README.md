@@ -16,6 +16,7 @@ Currently, the VCs supported and corresponding commands:
 
 ## Integrate with your Slack
 
+![Integration](http://g.recordit.co/JKXbspnUcc.gif)
 1. Go to one of your Slack channel.
 2. Click the **Channel Settings**.
 3. In the settings menu, click the **Add an app or integration**.
