@@ -176,9 +176,9 @@ def getInvestors(company):
     response = " "
     investors = {}
     for a in soup.find_all("a", {"class":"startup-link"}):
-        name = str(a.get_text())
+        name = a.get_text()
         if name != "":
-            investors[name] = str(a.get('href'))
+            investors[name] = a.get('href')
     return investors
 
 def getPortfolio(vc):

@@ -20,19 +20,22 @@ def hello():
     response = ""
     if arr[1] == "p":
         result = vc.getPortfolio(arr[0].lower())
+        result = collections.OrderedDict(sorted(result.items()))
         response = ":innocent: This is " + vc.getVCName(arr[0].lower()) + "'s portfolio: \n\n"
         i = 1
         for k, v in result.items():
             response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
             i += 1
-    else:
+    elif arr[1] == "i":
         result = vc.getInvestors(arr[0].lower())
-        print result
+        result = collections.OrderedDict(sorted(result.items()))
         response = ":innocent: These are " + arr[0] + "'s investors: \n"
         i = 1
         for k, v in result.items():
-            response += "<" + v.strip() + "|" + str(i) + ". " + k + ">\n"
+            response += "<" + v.strip() + "|" + str(i) + ". " + str(k) + ">\n"
             i += 1
+    else:
+        response = ":innocent: This command is not supported, please re-type :innocent:\n"
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
