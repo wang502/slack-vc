@@ -174,19 +174,19 @@ def getInvestors(company):
 
     soup = BeautifulSoup(response)
     investments = []
+    href = ""
+    name = ""
     for series in soup.find_all("div", {"class":"show section"}):
         serie = {}
         r = series.find("div", {"class":"type"}).get_text()
         year = series.find("div", {"class":"date_display"}).get_text()
         serie["year"] = year
         serie["round"] = r
-        href = ""
-        name = ""
         investors = []
-        for vc in series.find_all("div", {"class":"text"}):
+        for vc in series.find_all("a", {"class":"startup-link"}):
             investor = {}
-            href = vc.find("a").get("href")
-            name = vc.find("a").get_text()
+            href = vc.get("href")
+            name = vc.get_text()
             investor["link"] = href
             investor["name"] = name
             investors.append(investor)

@@ -34,11 +34,11 @@ def hello():
             response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
             i += 1
     elif option == "investors":
-        #for serie in result2:
-        #    response += " " + str(serie["round"]).strip() + "(" + str(serie["year"]) +")\n"
-        #    for investor in serie["investors"]:
-        #        response += "  <" + str(investor["link"]) + "|" + str(investor["name"]) + ">\n"
-        response += str(result2)
+        for serie in result2:
+            response += " " + str(serie["round"]).strip() + "(" + str(serie["year"]) +")\n"
+            for investor in serie["investors"]:
+                response += "  <" + str(investor["link"]) + "|" + str(investor["name"]) + ">\n"
+        #response += str(result2)
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
