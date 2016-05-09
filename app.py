@@ -16,29 +16,23 @@ def hello():
 
     arr = message.split(" ")
 
-    result1 = {}
-    result2 = []
-    option = ""
+    result = {}
     response = ""
     if arr[1] == "p":
-        result1 = vc.getPortfolio(arr[0].lower())
-        option = "portfolio"
+        result = vc.getPortfolio(arr[0].lower())
         response = ":innocent: This is " + vc.getVCName(arr[0].lower()) + "'s portfolio: \n\n"
-    else:
-        result2 = vc.getInvestors(arr[0].lower())
-        option = "investors"
-        response = ":innocent: This is " + arr[0].lower() + "'s investors: \n"
-    if option == "portfolio":
         i = 1
-        for k, v in result1.items():
+        for k, v in result.items():
             response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
             i += 1
-    elif option == "investors":
-        for serie in result2:
-            response += " " + str(serie["round"]).strip() + "(" + str(serie["year"]) +")\n"
-            for investor in serie["investors"]:
-                response += "  <" + str(investor["link"]) + "|" + str(investor["name"]) + ">\n"
-        #response += str(result2)
+    else:
+        result = vc.getInvestors(arr[0].lower())
+        print result
+        response = ":innocent: These are " + arr[0] + "'s investors: \n"
+        i = 1
+        for k, v in result.items():
+            response += "<" + v.strip() + "|" + str(i) + ". " + k + ">\n"
+            i += 1
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":

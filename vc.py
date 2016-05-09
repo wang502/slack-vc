@@ -173,27 +173,13 @@ def getInvestors(company):
     status, response = http.request(url, 'GET', None, headers)
 
     soup = BeautifulSoup(response)
-    investments = []
-    href = ""
-    name = ""
-    for series in soup.find_all("div", {"class":"show section"}):
-        serie = {}
-        r = series.find("div", {"class":"type"}).get_text()
-        year = series.find("div", {"class":"date_display"}).get_text()
-        serie["year"] = year
-        serie["round"] = r
-        investors = []
-        for vc in series.find_all("a", {"class":"startup-link"}):
-            investor = {}
-            href = vc.get("href")
-            name = vc.get_text()
-            investor["link"] = href
-            investor["name"] = name
-            investors.append(investor)
-        serie["investors"] = investors
-        investments.append(serie)
-    return investments
-
+    response = " "
+    investors = {}
+    for a in soup.find_all("a", {"class":"startup-link"}):
+        name = str(a.get_text())
+        if name != "":
+            investors[name] = str(a.get('href'))
+    return investors
 
 def getPortfolio(vc):
     #vc = vc.lower()
@@ -223,4 +209,4 @@ def getVCName(acronym):
     #print getFFPortfolio()
     #print getGreylockPortfolio()
     #print getGoogleVenturePostfolio()
-    #getInvestors("slack")
+    #print getInvestors("slack")
