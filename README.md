@@ -41,12 +41,12 @@ After adding Slack-VC integration to your team, within any channel of your team,
 ## To test on your machine
 Clone the repo
 
-  $git clone https://github.com/wang502/slack-vc
-  $cd slack-vc
-  $python app.py
+    `$git clone https://github.com/wang502/slack-vc`
+    `$cd slack-vc`
+    `$python app.py`
 
 Server is up and running locally, open another terminal:
 
-  $curl --data "text=iconfinder i" http://0.0.0.0:5000/
+    `$curl --data "text=iconfinder i" http://0.0.0.0:5000/`
 
 You will see the message returned
