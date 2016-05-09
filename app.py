@@ -11,6 +11,7 @@ def hello():
     '''
     Example message:
     /vc a16z p
+    /vc instagram i
     '''
     message = request.values.get('text')
 
@@ -18,6 +19,7 @@ def hello():
 
     result = {}
     response = ""
+    # look up VC's portfolio
     if arr[1] == "p":
         result = vc.getPortfolio(arr[0].lower())
         result = collections.OrderedDict(sorted(result.items()))
@@ -26,6 +28,7 @@ def hello():
         for k, v in result.items():
             response += "<" + v.strip() + "|" + str(i) + ". " + utils.extract_name_from_string(k.strip()) + ">\n"
             i += 1
+    # look up a company's backed investors
     elif arr[1] == "i":
         result = vc.getInvestors(arr[0].lower())
         result = collections.OrderedDict(sorted(result.items()))

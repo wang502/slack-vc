@@ -3,7 +3,9 @@ import httplib2
 import unicodedata
 import utils
 import io, json, os
+import utils
 
+# dictionay for VC's portfolio link
 portfolio_dict = {
     "a16z": "http://a16z.com/portfolio/venture-growth/",
     "khosla": "http://www.khoslaventures.com/portfolio",
@@ -16,6 +18,7 @@ portfolio_dict = {
     "gv": "http://www.gv.com/portfolio/"
 }
 
+# dictionay for VC acronym and official name
 name_dict = {
     "a16z": "Andreessen Horowitz",
     "sequoia": "Sequoia Capital",
@@ -27,7 +30,6 @@ name_dict = {
 }
 
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
-
 
 # Crawl the portfolio list of a16z
 def geta16zPortfilio():
@@ -126,6 +128,7 @@ def getFoundersFundPortfolio():
         companies[formatted_name] = url
     return companies
 
+# crawl portfolio of Greylock Partners
 def getGreylockPortfolio():
     url = portfolio_dict['greylock']
     # mock browser header
@@ -144,6 +147,7 @@ def getGreylockPortfolio():
         companies[name] = link
     return companies
 
+# crawl portfolio of Google Ventures
 def getGoogleVenturePostfolio():
     url = portfolio_dict['gv']
     # mock browser header
@@ -163,6 +167,7 @@ def getGoogleVenturePostfolio():
         companies[name] = url
     return companies
 
+# return a company's backed investors
 def getInvestors(company):
     investors = {}
     with io.open("companies.txt") as f:
@@ -191,15 +196,14 @@ def writeCompany(company):
         if name != "":
             investors[name] = a.get('href')
     c = {"name":company, "investors":investors}
-    with io.open('companies.txt', 'a', encoding='utf-8') as f:
+    with io.open('companies2.txt', 'a', encoding='utf-8') as f:
         f.write(unicode(json.dumps(c, ensure_ascii=False)) + u'\n')
-        #json.dump(c, f)
-        #f.write(os.linesep)
 
 def writeCompanies(companies):
     for company in companies:
         writeCompany(company)
 
+# return a VC's portfolio
 def getPortfolio(vc):
     #vc = vc.lower()
     if vc == "a16z":
@@ -220,16 +224,9 @@ def getPortfolio(vc):
 def getVCName(acronym):
     return name_dict[acronym]
 
+# main function to crawl and write all companies profiles into companies.txt
+"""
 if __name__ == "__main__":
-	#print geta16zPortfilio()
-    #print getKhoslaPortfolio()
-    #print getSequoiaPortfolio()
-    #print getKPCBPortfolio()
-    #print getFFPortfolio()
-    #print getGreylockPortfolio()
-    #print getGoogleVenturePostfolio()
-    #writeInvestors("slack")
-
     # crawl and write all related companies into companies.txt
     vcs = ["a16z", "khosla", "sequoia", "ff", "kpcb", "greylock", "gv"]
     companies = {}
@@ -244,7 +241,9 @@ if __name__ == "__main__":
         name = company.replace(u'\xa0', u"-")
         name = name.replace(u'\u2019', u"-")
         name = str(name).lower()
+        name = utils.extract_name_from_string(name)
         writeCompany(name)
         print name + " written"
 
     #print getInvestors("slack")
+"""
