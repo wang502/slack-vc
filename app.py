@@ -38,6 +38,7 @@ def hello():
             response += " " + str(serie["round"]).strip() + "(" + str(serie["year"]) +")\n"
             for investor in serie["investors"]:
                 response += "  <" + str(investor["link"]) + "|" + str(investor["name"]) + ">\n"
+    print response
     return Response(response, content_type='text/plain;charset=utf-8')
 
 if __name__ == "__main__":
