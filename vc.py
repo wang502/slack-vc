@@ -175,7 +175,7 @@ def getInvestors(company):
     soup = BeautifulSoup(response)
     response = " "
     investors = {}
-    for a in soup.find("div", {"class":"past_financing section"}).find_all("a", {"class":"startup-link"}):
+    for a in soup.find("div", {"class":"startup_rounds"}).find_all("a", {"class":"startup-link"}):
         name = a.get_text()
         if name != "":
             investors[name] = a.get('href')
