@@ -46,8 +46,10 @@ $cd slack-vc`
 $pip install -r requirement.txt
 $python app.py
 ```
+
 2. Server is up and running locally, open another terminal.
 ```
 $curl --data "text=iconfinder i" http://0.0.0.0:5000/
 ```
+
 3. You will see the message returned.
