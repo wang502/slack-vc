@@ -1,6 +1,7 @@
 #Slack-VC
 Slack-VC is a Slack integration to look up famous Venture Capital's portfolio list. It's built for startup enthusiasts! 😇
 ![Example](http://g.recordit.co/F1OKTHKVfu.gif)
+
 ![companies](http://g.recordit.co/QJ0fFfVxpm.gif)
 
 ## Coverage
@@ -39,7 +40,7 @@ After adding Slack-VC integration to your team, within any channel of your team,
   - For example: **/vc instagram i**
 
 ## To test on your machine
-1. Clone the repo.
+- Clone the repo.
 ```
 $git clone https://github.com/wang502/slack-vc
 $cd slack-vc`
@@ -47,9 +48,9 @@ $pip install -r requirement.txt
 $python app.py
 ```
 
-2. Server is up and running locally, open another terminal.
+- Server is up and running locally, open another terminal.
 ```
 $curl --data "text=iconfinder i" http://0.0.0.0:5000/
 ```
 
-3. You will see the message returned.
+- You will see the message returned.
