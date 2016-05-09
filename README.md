@@ -34,3 +34,5 @@ Currently, the VCs supported and corresponding commands:
 After adding Slack-VC integration to your team, within any channel of your team,
 - To look up portfolio, in your input box, simply type **/vc [VC name + space + p]**
   - For example: **/vc a16z p**
+- To look up a company's backed investors, simply type **/vc [company name + space + i]**
+  - For example: **/vc instagram i**
