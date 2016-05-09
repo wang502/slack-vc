@@ -37,3 +37,16 @@ After adding Slack-VC integration to your team, within any channel of your team,
   - For example: **/vc a16z p**
 - To look up a company's backed investors, simply type **/vc [company name + space + i]**
   - For example: **/vc instagram i**
+
+## To test on your machine
+Clone the repo
+
+  $git clone https://github.com/wang502/slack-vc
+  $cd slack-vc
+  $python app.py
+
+Server is up and running locally, open another terminal:
+
+  $curl --data "text=iconfinder i" http://0.0.0.0:5000/
+
+You will see the message returned
