@@ -163,28 +163,6 @@ def getGoogleVenturePostfolio():
         companies[name] = url
     return companies
 
-"""def getInvestors(company):
-    #url = portfolio_dict['gv']
-    url = "http://angel.co/" + company
-    #url = "https://www.crunchbase.com/organization/facebook/investors?page=2"
-    # mock browser header
-    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
-    headers = { 'User-Agent' : user_agent }
-
-    http = httplib2.Http()
-    status, response = http.request(url, 'GET', None, headers)
-
-    soup = BeautifulSoup(response)
-
-    investors = {}
-    #print soup.find_all("a", {"class":"startup-link"})
-    for a in soup.find_all("a", {"class":"startup-link"}):
-        name = a.get_text()
-        if name != "":
-            investors[name] = a.get('href')
-    return investors
-"""
-
 def getInvestors(company):
     investors = {}
     with io.open("companies.txt") as f:
@@ -194,6 +172,7 @@ def getInvestors(company):
                 investors = c["investors"]
     return investors
 
+# Crawl company profiles and write into companies.txt
 def writeCompany(company):
     url = "http://angel.co/" + company
     #url = "https://www.crunchbase.com/organization/facebook/investors?page=2"
@@ -251,6 +230,7 @@ if __name__ == "__main__":
     #print getGoogleVenturePostfolio()
     #writeInvestors("slack")
 
+    # crawl and write all related companies into companies.txt
     vcs = ["a16z", "khosla", "sequoia", "ff", "kpcb", "greylock", "gv"]
     companies = {}
     companies_2 = []
