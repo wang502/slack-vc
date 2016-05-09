@@ -1,0 +1,420 @@
+{"name": "boku", "investors": {"Sandwich Video": "https://angel.co/sandwich-video", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Benchmark Capital": "https://angel.co/benchmark-capital", "Khosla Ventures": "https://angel.co/khosla-ventures", "Index Ventures": "https://angel.co/index-ventures", "Mopay": "https://angel.co/mopay"}}
+{"name": "nationbuilder", "investors": {"SV Angel": "https://angel.co/sv-angel", "Queensbridge Venture Partners": "https://angel.co/queensbridge-venture-partners", "Allen & Company": "https://angel.co/allen-company", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "skout", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Siemer Ventures": "https://angel.co/siemer-ventures"}}
+{"name": "instart-logic", "investors": {"StartX": "https://angel.co/startx", "Greylock Partners": "https://angel.co/greylock-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Tenaya Capital": "https://angel.co/tenaya-capital"}}
+{"name": "dwolla", "investors": {"Union Square Ventures": "https://angel.co/union-square-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "BetterWorks": "https://angel.co/betterworks"}}
+{"name": "airbnb", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "SV Angel": "https://angel.co/sv-angel", "Sandwich Video": "https://angel.co/sandwich-video", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "YesGraph": "https://angel.co/yesgraph", "CrunchFund": "https://angel.co/crunchfund", "Y Combinator": "https://angel.co/y-combinator", "Sumazi": "https://angel.co/sumazi", "Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "julep", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Western Technology Investment": "https://angel.co/western-technology-investment", "Version One Ventures": "https://angel.co/version-one-ventures", "Madrona Venture Group": "https://angel.co/madrona-venture-group", "Alliance of Angels": "https://angel.co/alliance-of-angels", "Maveron": "https://angel.co/maveron"}}
+{"name": "distelli", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "fanatics", "investors": {}}
+{"name": "gigster", "investors": {}}
+{"name": "21", "investors": {"Winklevoss Capital": "https://angel.co/winklevosscap", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "meteor development-group", "investors": {}}
+{"name": "toutapp", "investors": {}}
+{"name": "tinyco", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "glow", "investors": {"Project A Ventures": "https://angel.co/project-a-ventures", "Avonmore Developments": "https://angel.co/avonmore-developments"}}
+{"name": "nicira", "investors": {}}
+{"name": "slack", "investors": {"Social Capital": "https://angel.co/socialcapital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "airware", "investors": {"GV": "https://angel.co/googleventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Y Combinator": "https://angel.co/y-combinator", "Lemnos Labs": "https://angel.co/lemnoslabs", "First Round Capital": "https://angel.co/first-round-capital", "Friends and Family": "https://angel.co/friends-and-family"}}
+{"name": "actifio", "investors": {"Greylock Partners": "https://angel.co/greylock-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Tiger Global": "https://angel.co/tiger-global", "North Bridge Venture Partners": "https://angel.co/north-bridge-venture-partners"}}
+{"name": "transferwise", "investors": {"Seedcamp": "https://angel.co/seedcamp", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "ICE": "https://angel.co/ice", "SV Angel": "https://angel.co/sv-angel", "Index Ventures": "https://angel.co/index-ventures", "Valar Ventures": "https://angel.co/valar-ventures"}}
+{"name": "apptio", "investors": {"Shasta Ventures": "https://angel.co/shasta-ventures", "Greylock Partners": "https://angel.co/greylock-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Madrona Venture Group": "https://angel.co/madrona-venture-group"}}
+{"name": "bluebox-security", "investors": {}}
+{"name": "mixpanel", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Y Combinator": "https://angel.co/y-combinator", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "local motion", "investors": {}}
+{"name": "jumio", "investors": {"Citi Ventures": "https://angel.co/citi-ventures-1", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "improbable", "investors": {"Localglobe": "https://angel.co/localglobe", "The Accelerator Group": "https://angel.co/the-accelerator-group"}}
+{"name": "bump-technologies", "investors": {"SV Angel": "https://angel.co/sv-angel", "Sequoia Capital": "https://angel.co/sequoia-capital", "Felicis Ventures": "https://angel.co/felicis-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Y Combinator": "https://angel.co/y-combinator"}}
+{"name": "pinterest", "investors": {"FirstMark Capital": "https://angel.co/firstmark-capital", "Hint Water": "https://angel.co/hint-water", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "yozio": "https://angel.co/yozio", "Bessemer Venture Partners": "https://angel.co/bessemer-venture-partners", "Hive": "https://angel.co/hiveteams", "Parklet": "https://angel.co/parklet", "Abacus": "https://angel.co/abacus", "Bugcrowd": "https://angel.co/bugcrowd"}}
+{"name": "quirky", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "RRE Ventures": "https://angel.co/rre-ventures", "Perch Interactive": "https://angel.co/perch-interactive", "Accomplice": "https://angel.co/fka", "Norwest Venture Partners": "https://angel.co/norwest-venture-partners", "Lowercase Capital": "https://angel.co/lowercase-capital", "Filament": "https://angel.co/pinoccio"}}
+{"name": "groupon, inc.", "investors": {}}
+{"name": "shapeways", "investors": {"Lux Capital": "https://angel.co/lux-capital", "Index Ventures": "https://angel.co/index-ventures", "Union Square Ventures": "https://angel.co/union-square-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Partnership Fund for New York City": "https://angel.co/partnership-fund-for-new-york-city"}}
+{"name": "granular", "investors": {}}
+{"name": "udacity", "investors": {}}
+{"name": "asana", "investors": {"Benchmark Capital": "https://angel.co/benchmark-capital", "Kapor Capital": "https://angel.co/kapor-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "bromium", "investors": {"Meritech Capital": "https://angel.co/meritech-capital", "Highland Capital Partners": "https://angel.co/highland-capital-partners"}}
+{"name": "belly", "investors": {"Cisco": "https://angel.co/cisco", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Lightbank": "https://angel.co/lightbank", "DAG Ventures": "https://angel.co/dag-ventures", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Silicon Valley Bank": "https://angel.co/silicon-valley-bank"}}
+{"name": "signalfx", "investors": {}}
+{"name": "benchling", "investors": {"Y Combinator": "https://angel.co/y-combinator", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Thrive Capital": "https://angel.co/thrive-capital"}}
+{"name": "onshape", "investors": {"Commonwealth Capital Ventures": "https://angel.co/commonwealth-capital-ventures", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "North Bridge Venture Partners": "https://angel.co/north-bridge-venture-partners"}}
+{"name": "platfora", "investors": {"Pingboard": "https://angel.co/pingboard", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Battery Ventures": "https://angel.co/battery-ventures"}}
+{"name": "cumulus-networks", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Battery Ventures": "https://angel.co/battery-ventures"}}
+{"name": "optimizely", "investors": {"Benchmark Capital": "https://angel.co/benchmark-capital", "GV": "https://angel.co/googleventures", "Felicis Ventures": "https://angel.co/felicis-ventures", "Battery Ventures": "https://angel.co/battery-ventures", "Bain Capital Ventures": "https://angel.co/bain-capital-ventures"}}
+{"name": "affirm", "investors": {"COMPGUN (YC W16)": "https://angel.co/compgun", "Khosla Ventures": "https://angel.co/khosla-ventures", "Spark Capital": "https://angel.co/spark-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Lightspeed Venture Partners": "https://angel.co/lightspeed-venture-partners"}}
+{"name": "offerup", "investors": {"Tech.Co (formerly Tech Cocktail)": "https://angel.co/tech-cocktail"}}
+{"name": "facebook", "investors": {"Parse": "https://angel.co/parse", "Instagram": "https://angel.co/instagram", "Gowalla": "https://angel.co/gowalla", "Friend.ly": "https://angel.co/friend-ly", "Spool": "https://angel.co/spool", "Elevation Partners": "https://angel.co/elevation-partners", "Hot Potato": "https://angel.co/hot-potato", "Chai Labs": "https://angel.co/chai-labs", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "box", "investors": {"BlitzFlow": "https://angel.co/blitzflow", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Telstra": "https://angel.co/telstra", "US Venture Partners": "https://angel.co/us-venture-partners", "Scale Venture Partners": "https://angel.co/scale-venture-partners", "Bessemer Venture Partners": "https://angel.co/bessemer-venture-partners", "Itochu Technology Ventures": "https://angel.co/itochu-technology-ventures", "Emergence Capital Partners": "https://angel.co/emergence-capital-partners", "DFJ": "https://angel.co/dfj", "Conjur": "https://angel.co/conjur", "Simppler": "https://angel.co/simppler"}}
+{"name": "clearstory", "investors": {}}
+{"name": "magic leap", "investors": {}}
+{"name": "fusion-io", "investors": {"Pelion Venture Partners": "https://angel.co/pelion-venture-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Triangle Peak Partners": "https://angel.co/triangle-peak-partners", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Accel Partners": "https://angel.co/accel-partners", "I/O Turbine": "https://angel.co/i-o-turbine"}}
+{"name": "github", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "CheckiO": "https://angel.co/checkio", "SV Angel": "https://angel.co/sv-angel", "Mention": "https://angel.co/mention", "Major League Hacking": "https://angel.co/major-league-hacking", "Brewbot": "https://angel.co/brewbot", "Ordered List": "https://angel.co/ordered-list"}}
+{"name": "it-son", "investors": {}}
+{"name": "mayvenn", "investors": {"Trinity Ventures": "https://angel.co/trinity-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "500 Startups": "https://angel.co/500startups"}}
+{"name": "teespring", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Zest Tea Energy Blends": "https://angel.co/zest-tea-energy-blends", "DapperJobs": "https://angel.co/dapperjobs", "EasyPost": "https://angel.co/easypost", "Y Combinator": "https://angel.co/y-combinator", "Mountary": "https://angel.co/mountary", "FundersClub": "https://angel.co/fundersclub", "Graft Concepts": "https://angel.co/graft-concepts", "Sverve": "https://angel.co/sverve"}}
+{"name": "honor", "investors": {"Homebrew": "https://angel.co/homebrew-1", "Rock Health": "https://angel.co/rockhealth", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "gainspeed", "investors": {"Juniper Networks": "https://angel.co/juniper-networks", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Shasta Ventures": "https://angel.co/shasta-ventures"}}
+{"name": "pagerduty", "investors": {"Y Combinator": "https://angel.co/y-combinator", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Heavybit Industries": "https://angel.co/heavybit-industries"}}
+{"name": "altschool", "investors": {}}
+{"name": "mesosphere", "investors": {"CrunchFund": "https://angel.co/crunchfund", "Foundation Capital": "https://angel.co/foundation-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Data Collective": "https://angel.co/data-collective"}}
+{"name": "cazena", "investors": {}}
+{"name": "snaplogic", "investors": {"Floodgate": "https://angel.co/floodgate", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "tilt", "investors": {"CrunchFund": "https://angel.co/crunchfund", "Felicis Ventures": "https://angel.co/felicis-ventures", "Slow Ventures": "https://angel.co/slow-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "SV Angel": "https://angel.co/sv-angel", "Y Combinator": "https://angel.co/y-combinator"}}
+{"name": "gooddata", "investors": {"O'Reilly AlphaTech Ventures": "https://angel.co/o-reilly-alphatech-ventures", "General Catalyst Partners": "https://angel.co/general-catalyst-partners", "TOTVS": "https://angel.co/totvs", "Tenaya Capital": "https://angel.co/tenaya-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "genius", "investors": {"Betaworks": "https://angel.co/betaworks"}}
+{"name": "everlaw", "investors": {"K9 Ventures": "https://angel.co/k9-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "hem", "investors": {}}
+{"name": "coho data", "investors": {}}
+{"name": "factual", "investors": {"SV Angel": "https://angel.co/sv-angel", "Founder Collective": "https://angel.co/founder-collective", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "cyanogen", "investors": {}}
+{"name": "lookout", "investors": {"Primsly": "https://angel.co/primsly", "Sandwich Video": "https://angel.co/sandwich-video", "Prescribe Nutrition": "https://angel.co/prescribe-nutrition", "Linkurious": "https://angel.co/linkurious", "Accel Partners": "https://angel.co/accel-partners", "Hive": "https://angel.co/hiveteams", "Bluebox": "https://angel.co/bluebox", "Khosla Ventures": "https://angel.co/khosla-ventures", "Index Ventures": "https://angel.co/index-ventures", "Thistle": "https://angel.co/thistle-1", "Greylock Partners": "https://angel.co/greylock-partners", "Zesty": "https://angel.co/zesty-1", "SV Angel": "https://angel.co/sv-angel", "Bitbar": "https://angel.co/bitbar", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "samsara", "investors": {}}
+{"name": "arimo", "investors": {}}
+{"name": "500px", "investors": {"ff Venture Capital": "https://angel.co/ffvc", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "The DMZ at Ryerson University": "https://angel.co/dmz-at-ryerson-university"}}
+{"name": "anki", "investors": {}}
+{"name": "producthunt", "investors": {}}
+{"name": "rockmelt", "investors": {"SV Angel": "https://angel.co/sv-angel", "First Round Capital": "https://angel.co/first-round-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "forward networks", "investors": {}}
+{"name": "ringly", "investors": {"First Round Capital": "https://angel.co/first-round-capital", "Highway1": "https://angel.co/highway1", "Social Capital": "https://angel.co/socialcapital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "shoedazzle", "investors": {"Crosscut Ventures": "https://angel.co/crosscut-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Polaris Partners": "https://angel.co/polaris-partners-1"}}
+{"name": "oculus", "investors": {}}
+{"name": "tidemark", "investors": {"Workday": "https://angel.co/workday-1"}}
+{"name": "twice", "investors": {"Lerer Hippeau Ventures": "https://angel.co/lerer-hippeau-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "IA Ventures": "https://angel.co/ia-ventures", "eBay": "https://angel.co/ebay"}}
+{"name": "pindrop-security", "investors": {"GV": "https://angel.co/googleventures", "Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "New World Ventures": "https://angel.co/new-world-ventures", "Redpoint Ventures": "https://angel.co/redpoint-ventures", "TechSquare": "https://angel.co/techsquare"}}
+{"name": "imgur", "investors": {"Reddit": "https://angel.co/reddit", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "capriza", "investors": {"CRV": "https://angel.co/crv-1", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "instacart", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Canaan Partners": "https://angel.co/canaan-partners", "TheSquareFoot": "https://angel.co/thesquarefoot", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Y Combinator": "https://angel.co/y-combinator", "Checkr": "https://angel.co/checkr", "Whole Foods": "https://angel.co/whole-foods", "Pakible": "https://angel.co/pakible", "Khosla Ventures": "https://angel.co/khosla-ventures", "FundersClub": "https://angel.co/fundersclub", "Zesty": "https://angel.co/zesty-1", "Rollbar": "https://angel.co/rollbar", "Zenefits": "https://angel.co/zenefits", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "twitter", "investors": {"Spark Capital": "https://angel.co/spark-capital", "Union Square Ventures": "https://angel.co/union-square-ventures", "CRV": "https://angel.co/crv-1", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Tweetdeck": "https://angel.co/tweetdeck", "Digital Garage": "https://angel.co/digital-garage", "Mixer Labs": "https://angel.co/mixer-labs", "Bluefin Labs": "https://angel.co/bluefin-labs", "Benchmark Capital": "https://angel.co/benchmark-capital", "Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "BackType": "https://angel.co/backtype", "Spindle": "https://angel.co/spindle"}}
+{"name": "buzzfeed", "investors": {"Hearst Ventures": "https://angel.co/hearst-ventures", "Founder Collective": "https://angel.co/founder-collective", "Lerer Hippeau Ventures": "https://angel.co/lerer-hippeau-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "SoftBank Capital": "https://angel.co/softbank-capital"}}
+{"name": "databricks", "investors": {}}
+{"name": "mori", "investors": {"London Business School Incubator": "https://angel.co/london-business-school-incubator"}}
+{"name": "digitalocean", "investors": {"CrunchFund": "https://angel.co/crunchfund", "Techstars": "https://angel.co/techstars", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "IA Ventures": "https://angel.co/ia-ventures"}}
+{"name": "stack exchange", "investors": {}}
+{"name": "illumio", "investors": {"Data Collective": "https://angel.co/data-collective"}}
+{"name": "zulily", "investors": {"Spare5": "https://angel.co/spare5", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Trinity Ventures": "https://angel.co/trinity-ventures", "Red Tricycle": "https://angel.co/red-tricycle", "August Capital": "https://angel.co/august-capital", "Panty Prop": "https://angel.co/panty-prop", "Maveron": "https://angel.co/maveron", "Toymail": "https://angel.co/toymail-co", "Rumpl": "https://angel.co/rumpl-2"}}
+{"name": "opengov", "investors": {"Formation | 8": "https://angel.co/formation-8", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Thrive Capital": "https://angel.co/thrive-capital", "Indirectly (off Angel list)": "https://angel.co/indirectly-off-angel-list"}}
+{"name": "switch communications", "investors": {}}
+{"name": "foursquare", "investors": {"SV Angel": "https://angel.co/sv-angel", "OATV": "https://angel.co/oatv", "Union Square Ventures": "https://angel.co/union-square-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "okta", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Floodgate": "https://angel.co/floodgate", "Greylock Partners": "https://angel.co/greylock-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "SV Angel": "https://angel.co/sv-angel", "Khosla Ventures": "https://angel.co/khosla-ventures"}}
+{"name": "soylent", "investors": {"Y Combinator": "https://angel.co/y-combinator", "Lerer Hippeau Ventures": "https://angel.co/lerer-hippeau-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "bebop", "investors": {}}
+{"name": "usermind", "investors": {"SV Angel": "https://angel.co/sv-angel", "Charles River Ventures": "https://angel.co/charles-river-ventures-1", "CRV": "https://angel.co/crv-1", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Menlo Ventures": "https://angel.co/menlo-ventures"}}
+{"name": "fiftythree", "investors": {"SV Angel": "https://angel.co/sv-angel", "Thrive Capital": "https://angel.co/thrive-capital"}}
+{"name": "keybase", "investors": {}}
+{"name": "tanium", "investors": {"TPG Capital": "https://angel.co/tpg-capital", "T. Rowe Price": "https://angel.co/t-rowe-price-1", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "walker and company-brands", "investors": {}}
+{"name": "coinbase", "investors": {"Authy": "https://angel.co/authy", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Union Square Ventures": "https://angel.co/union-square-ventures", "SV Angel": "https://angel.co/sv-angel", "Y Combinator": "https://angel.co/y-combinator", "FundersClub": "https://angel.co/fundersclub", "DFJ": "https://angel.co/dfj", "Capital ROI": "https://angel.co/capital-roi-1", "Red Swan": "https://angel.co/red-swan"}}
+{"name": "datagravity", "investors": {"General Catalyst Partners": "https://angel.co/general-catalyst-partners", "CRV": "https://angel.co/crv-1", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "kno", "investors": {"Floodgate": "https://angel.co/floodgate", "First Round Capital": "https://angel.co/first-round-capital", "Silicon Valley Bank": "https://angel.co/silicon-valley-bank", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "GSV Capital": "https://angel.co/gsv-capital"}}
+{"name": "ifttt", "investors": {"Lerer Hippeau Ventures": "https://angel.co/lerer-hippeau-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Norwest Venture Partners": "https://angel.co/norwest-venture-partners", "Betaworks": "https://angel.co/betaworks"}}
+{"name": "skype,-inc.", "investors": {}}
+{"name": "omada health", "investors": {}}
+{"name": "envoy", "investors": {}}
+{"name": "ciphercloud", "investors": {"Index Ventures": "https://angel.co/index-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "T-Venture": "https://angel.co/t-venture"}}
+{"name": "magnet-systems", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "jawbone", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "StatusPage.io": "https://angel.co/statuspage-io", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Narvar": "https://angel.co/narvar", "Khosla Ventures": "https://angel.co/khosla-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "lyft", "investors": {"Floodgate": "https://angel.co/floodgate", "K9 Ventures": "https://angel.co/k9-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Founders Fund": "https://angel.co/founders-fund", "Alibaba": "https://angel.co/alibaba", "Honey": "https://angel.co/honey-6", "Rakuten": "https://angel.co/rakuten", "Sparkcentral": "https://angel.co/sparkcentral", "Exposure": "https://angel.co/exposure-co"}}
+{"name": "bracket computing", "investors": {}}
+{"name": "maxta", "investors": {"Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Tenaya Capital": "https://angel.co/tenaya-capital", "Intel Capital": "https://angel.co/intel-capital"}}
+{"name": "lytro", "investors": {"Greylock Partners": "https://angel.co/greylock-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "zenefits", "investors": {"Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "Maverick Capital": "https://angel.co/maverick-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Founders Fund": "https://angel.co/founders-fund", "SV Angel": "https://angel.co/sv-angel", "Y Combinator": "https://angel.co/y-combinator", "Venrock": "https://angel.co/venrock"}}
+{"name": "alluxio", "investors": {}}
+{"name": "impossible foods", "investors": {}}
+{"name": "alveo energy", "investors": {}}
+{"name": "skybox imaging", "investors": {}}
+{"name": "aloha", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Fenwick and West": "https://angel.co/fenwick-and-west", "Highland Capital Partners": "https://angel.co/highland-capital-partners", "Consigliere Brand Capital": "https://angel.co/consigliere-brand-capital"}}
+{"name": "cylance", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Draper Nexus Ventures": "https://angel.co/draper-nexus-ventures", "Fairhaven Capital": "https://angel.co/fairhaven-capital", "Fairhaven Capital Partners": "https://angel.co/fairhaven-capital-partners", "The Blackstone Group": "https://angel.co/the-blackstone-group"}}
+{"name": "avogy", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Intel Capital": "https://angel.co/intel-capital"}}
+{"name": "carelulu", "investors": {"CrunchFund": "https://angel.co/crunchfund", "Khosla Ventures": "https://angel.co/khosla-ventures", "1776": "https://angel.co/1776", "500 Startups": "https://angel.co/500startups", "The Startup Factory": "https://angel.co/the-startup-factory"}}
+{"name": "bioconsortia", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Otter Capital": "https://angel.co/otter-capital"}}
+{"name": "kaggle", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Index Ventures": "https://angel.co/index-ventures", "Founders Den": "https://angel.co/foundersden"}}
+{"name": "blockscore", "investors": {"Y Combinator": "https://angel.co/y-combinator", "Boost VC": "https://angel.co/boost-vc", "Khosla Ventures": "https://angel.co/khosla-ventures"}}
+{"name": "adamant", "investors": {}}
+{"name": "momentum machines", "investors": {}}
+{"name": "piazza", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Felicis Ventures": "https://angel.co/felicis-ventures", "Bessemer Venture Partners": "https://angel.co/bessemer-venture-partners", "SV Angel": "https://angel.co/sv-angel", "Khosla Ventures": "https://angel.co/khosla-ventures", "Kapor Capital": "https://angel.co/kapor-capital"}}
+{"name": "altarock energy", "investors": {}}
+{"name": "ayasdi", "investors": {"Floodgate": "https://angel.co/floodgate", "Draper Nexus Ventures": "https://angel.co/draper-nexus-ventures"}}
+{"name": "greatpoint energy", "investors": {}}
+{"name": "blue river technology", "investors": {}}
+{"name": "vicarious", "investors": {}}
+{"name": "ecomotors", "investors": {}}
+{"name": "seamicro", "investors": {"AMD": "https://angel.co/amd", "DFJ": "https://angel.co/dfj"}}
+{"name": "bridge international academies", "investors": {}}
+{"name": "cellscope", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Rock Health": "https://angel.co/rockhealth", "Claremont Creek Ventures": "https://angel.co/claremont-creek-ventures"}}
+{"name": "consumer physics", "investors": {}}
+{"name": "memsql", "investors": {"First Round Capital": "https://angel.co/first-round-capital", "Data Collective": "https://angel.co/data-collective", "Y Combinator": "https://angel.co/y-combinator", "SV Angel": "https://angel.co/sv-angel", "Khosla Ventures": "https://angel.co/khosla-ventures", "Great Oaks Venture Capital": "https://angel.co/great-oaks-venture-capital", "IA Ventures": "https://angel.co/ia-ventures", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "alivecor", "investors": {}}
+{"name": "yume", "investors": {"Crowd Science": "https://angel.co/crowd-science", "Translink Capital": "https://angel.co/translink-capital", "DAG Ventures": "https://angel.co/dag-ventures", "Khosla Ventures": "https://angel.co/khosla-ventures", "YourVibe Entertainment": "https://angel.co/yourvibe-entertainment-1", "Eventyoda": "https://angel.co/eventyoda-1", "Menlo Ventures": "https://angel.co/menlo-ventures", "Intel Capital": "https://angel.co/intel-capital", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "calera", "investors": {}}
+{"name": "lyrical foods / kite hill", "investors": {}}
+{"name": "grokker", "investors": {}}
+{"name": "sakti3", "investors": {"Itochu Technology Ventures": "https://angel.co/itochu-technology-ventures", "Khosla Ventures": "https://angel.co/khosla-ventures"}}
+{"name": "scorebeyond", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Stanford-StartX Fund": "https://angel.co/stanford-startx-fund"}}
+{"name": "stion", "investors": {}}
+{"name": "ramu motors", "investors": {}}
+{"name": "appnexus", "investors": {"Technology Crossover Ventures": "https://angel.co/tcv", "Yieldex": "https://angel.co/yieldex", "WPP": "https://angel.co/wpp", "Khosla Ventures": "https://angel.co/khosla-ventures", "First Round Capital": "https://angel.co/first-round-capital"}}
+{"name": "silicium energy", "investors": {}}
+{"name": "chain", "investors": {}}
+{"name": "canary connect inc.", "investors": {}}
+{"name": "seeo", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures"}}
+{"name": "billguard", "investors": {"SV Angel": "https://angel.co/sv-angel", "Founder Collective": "https://angel.co/founder-collective", "Prosper": "https://angel.co/prosper", "Bessemer Venture Partners": "https://angel.co/bessemer-venture-partners", "IA Ventures": "https://angel.co/ia-ventures"}}
+{"name": "even", "investors": {"BoxGroup": "https://angel.co/boxgroup", "Khosla Ventures": "https://angel.co/khosla-ventures", "Slow Ventures": "https://angel.co/slow-ventures", "Red Swan": "https://angel.co/red-swan", "Homebrew": "https://angel.co/homebrew-1"}}
+{"name": "lightsail energy", "investors": {}}
+{"name": "booktrope", "investors": {"Seattle Angel Conference": "https://angel.co/seattle-angel-conference"}}
+{"name": "quantumscape", "investors": {}}
+{"name": "checkr", "investors": {"Y Combinator": "https://angel.co/y-combinator", "Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "Khosla Ventures": "https://angel.co/khosla-ventures", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "hampton creek", "investors": {}}
+{"name": "feetz", "investors": {"GIGTANK": "https://angel.co/gigtank", "Khosla Ventures": "https://angel.co/khosla-ventures", "The JumpFund": "https://angel.co/the-jumpfund-1", "Founder Institute": "https://angel.co/founder-institute", "Launch TN - The TENN": "https://angel.co/launch-tn-the-tenn"}}
+{"name": "color genomics", "investors": {}}
+{"name": "ausra", "investors": {}}
+{"name": "bitly", "investors": {"SV Angel": "https://angel.co/sv-angel", "SoftTech VC": "https://angel.co/softtech-vc", "AOL Ventures": "https://angel.co/aol-ventures", "Betaworks": "https://angel.co/betaworks", "O'Reilly AlphaTech Ventures": "https://angel.co/o-reilly-alphatech-ventures"}}
+{"name": "pellion", "investors": {}}
+{"name": "everlane", "investors": {"SV Angel": "https://angel.co/sv-angel", "Lerer Hippeau Ventures": "https://angel.co/lerer-hippeau-ventures"}}
+{"name": "soraa", "investors": {}}
+{"name": "boosted boards", "investors": {}}
+{"name": "easic", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "Seagate Technology": "https://angel.co/seagate-technology", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "bidgely", "investors": {}}
+{"name": "metamarkets", "investors": {"Founder Collective": "https://angel.co/founder-collective", "Khosla Ventures": "https://angel.co/khosla-ventures", "AOL Ventures": "https://angel.co/aol-ventures", "True Ventures": "https://angel.co/true-ventures", "IA Ventures": "https://angel.co/ia-ventures"}}
+{"name": "contrail systems", "investors": {}}
+{"name": "etagen", "investors": {}}
+{"name": "sunborne energy", "investors": {}}
+{"name": "cinemagram", "investors": {"Accomplice": "https://angel.co/fka"}}
+{"name": "climate corporation", "investors": {}}
+{"name": "catalia health", "investors": {}}
+{"name": "arcanum alloy design", "investors": {}}
+{"name": "ciris energy", "investors": {}}
+{"name": "evolv", "investors": {}}
+{"name": "crosschx", "investors": {}}
+{"name": "atomwise", "investors": {"Mission and Market": "https://angel.co/mission-and-market", "Data Collective": "https://angel.co/data-collective"}}
+{"name": "mylikes", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures", "XG Ventures": "https://angel.co/xg-ventures", "Metamorphic Ventures": "https://angel.co/metamorphic-ventures"}}
+{"name": "rocket lab", "investors": {}}
+{"name": "nutek salt", "investors": {}}
+{"name": "blockstream", "investors": {"Digital Garage": "https://angel.co/digital-garage", "Horizon Ventures": "https://angel.co/horizon-ventures", "Innovation Endeavors": "https://angel.co/innovation-endeavors", "Khosla Ventures": "https://angel.co/khosla-ventures"}}
+{"name": "arista networks", "investors": {}}
+{"name": "datera", "investors": {"Khosla Ventures": "https://angel.co/khosla-ventures"}}
+{"name": "fundbox", "investors": {"SV Angel": "https://angel.co/sv-angel", "Khosla Ventures": "https://angel.co/khosla-ventures"}}
+{"name": "view glass", "investors": {}}
+{"name": "metamind", "investors": {}}
+{"name": "academia.edu", "investors": {}}
+{"name": "terrapower", "investors": {}}
+{"name": "nanoh2o", "investors": {"LG Chem": "https://angel.co/lg-chem", "Oak Investment Partners": "https://angel.co/oak-investment-partners", "Khosla Ventures": "https://angel.co/khosla-ventures", "Comerica Bank": "https://angel.co/comerica-bank", "Lighthouse Capital Partners": "https://angel.co/lighthouse-capital-partners", "BASF Venture Capital": "https://angel.co/basf-venture-capital"}}
+{"name": "fuze", "investors": {}}
+{"name": "scaled inference", "investors": {}}
+{"name": "bigswitch", "investors": {}}
+{"name": "doordash", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "CRV": "https://angel.co/crv-1", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Khosla Ventures": "https://angel.co/khosla-ventures", "SV Angel": "https://angel.co/sv-angel", "Y Combinator": "https://angel.co/y-combinator", "Haystack": "https://angel.co/haystack"}}
+{"name": "hyperloop technologies", "investors": {}}
+{"name": "db networks", "investors": {}}
+{"name": "parstream", "investors": {"German Accelerator": "https://angel.co/german-accelerator-3", "Data Collective": "https://angel.co/data-collective"}}
+{"name": "ambri", "investors": {}}
+{"name": "cogenra solar", "investors": {}}
+{"name": "spotify", "investors": {"RiteTag": "https://angel.co/ritetag", "The Echo Nest": "https://angel.co/the-echo-nest", "Tigerlily": "https://angel.co/tigerlily", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Founders Fund": "https://angel.co/founders-fund", "Northzone": "https://angel.co/northzone", "VoxTonePRO": "https://angel.co/voxtonepro", "Wellington Partners": "https://angel.co/wellington-partners", "Slingbot (FunnelFeed)": "https://angel.co/slingbot-funnelfeed", "Echonest": "https://angel.co/echonest", "Hakka Labs": "https://angel.co/hakka-labs", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "nubank", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Founders Fund": "https://angel.co/founders-fund", "Kaszek Ventures": "https://angel.co/kaszek-ventures", "Tiger Global Management": "https://angel.co/tiger-global-management", "Silicon Valley Bank": "https://angel.co/silicon-valley-bank"}}
+{"name": "altschool", "investors": {}}
+{"name": "counsyl", "investors": {}}
+{"name": "oscar", "investors": {}}
+{"name": "quantcast", "investors": {"Polaris Partners": "https://angel.co/polaris-partners-1"}}
+{"name": "nanotronics-imaging", "investors": {}}
+{"name": "wish", "investors": {"Locket": "https://angel.co/locket", "Treasure Data": "https://angel.co/treasure-data", "Kicklabs": "https://angel.co/kicklabs", "AfterShip": "https://angel.co/aftership"}}
+{"name": "flexport", "investors": {"Founders Fund": "https://angel.co/founders-fund", "First Round Capital": "https://angel.co/first-round-capital", "Y Combinator": "https://angel.co/y-combinator", "Susa Ventures": "https://angel.co/susa-ventures"}}
+{"name": "spacex", "investors": {"Founders Fund": "https://angel.co/founders-fund", "Bored Elon Musk": "https://angel.co/bored-elon-musk", "DFJ": "https://angel.co/dfj"}}
+{"name": "bolt-threads-2", "investors": {}}
+{"name": "researchgate", "investors": {"Benchmark Capital": "https://angel.co/benchmark-capital", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "blend", "investors": {}}
+{"name": "stemcentrx", "investors": {"ARTIS VENTURES": "https://angel.co/artisventures"}}
+{"name": "knewton", "investors": {"FirstMark Capital": "https://angel.co/firstmark-capital", "First Round Capital": "https://angel.co/first-round-capital", "Bessemer Venture Partners": "https://angel.co/bessemer-venture-partners", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "stripe-2", "investors": {}}
+{"name": "zocdoc", "investors": {"SV Angel": "https://angel.co/sv-angel", "Khosla Ventures": "https://angel.co/khosla-ventures", "Vast Ventures": "https://angel.co/vast-ventures", "Dst Global": "https://angel.co/dst-global", "Goldman Sachs": "https://angel.co/goldman-sachs"}}
+{"name": "palantir", "investors": {}}
+{"name": "misfit-wearables", "investors": {"Founders Fund": "https://angel.co/founders-fund", "Translink Capital": "https://angel.co/translink-capital", "TenOneTen Ventures": "https://angel.co/tenoneten-ventures", "Khosla Ventures": "https://angel.co/khosla-ventures", "Indiegogo": "https://angel.co/indiegogo", "Techammer": "https://angel.co/techammer", "Fossil Group": "https://angel.co/fossil-group", "O'Reilly AlphaTech Ventures": "https://angel.co/o-reilly-alphatech-ventures"}}
+{"name": "radius", "investors": {}}
+{"name": "emerald-theraputics", "investors": {}}
+{"name": "collective-health", "investors": {"Founders Fund": "https://angel.co/founders-fund", "GV": "https://angel.co/googleventures", "Social Capital": "https://angel.co/socialcapital", "Formation | 8": "https://angel.co/formation-8", "Redpoint Ventures": "https://angel.co/redpoint-ventures"}}
+{"name": "uber", "investors": {"Sherpa Capital": "https://angel.co/sherpaventures", "Benchmark Capital": "https://angel.co/benchmark-capital", "GV": "https://angel.co/googleventures", "Qminder": "https://angel.co/qminder", "RocketSpace": "https://angel.co/rocketspace", "Founder Collective": "https://angel.co/founder-collective", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "CrunchFund": "https://angel.co/crunchfund", "First Round Capital": "https://angel.co/first-round-capital", "ValiMail": "https://angel.co/valimail", "China Minsheng Bank": "https://angel.co/china-minsheng-bank", "Citics Securities": "https://angel.co/citics-securities", "Localize": "https://angel.co/localize", "NodeSource": "https://angel.co/nodesource", "Pretty Instant": "https://angel.co/pretty-instant", "TPG Growth": "https://angel.co/tpg-growth", "Menlo Ventures": "https://angel.co/menlo-ventures"}}
+{"name": "bloom-energy", "investors": {"DAG Ventures": "https://angel.co/dag-ventures", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "google", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "YouTube": "https://angel.co/youtube", "Aardvark": "https://angel.co/aardvark", "Pyra Labs": "https://angel.co/pyra-labs", "Zagat": "https://angel.co/zagat", "Apture": "https://angel.co/apture", "Android": "https://angel.co/android"}}
+{"name": "flexusbio", "investors": {}}
+{"name": "intersectent", "investors": {}}
+{"name": "docusign", "investors": {}}
+{"name": "osisoft", "investors": {"Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "twitter", "investors": {"Spark Capital": "https://angel.co/spark-capital", "Union Square Ventures": "https://angel.co/union-square-ventures", "CRV": "https://angel.co/crv-1", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Tweetdeck": "https://angel.co/tweetdeck", "Digital Garage": "https://angel.co/digital-garage", "Mixer Labs": "https://angel.co/mixer-labs", "Bluefin Labs": "https://angel.co/bluefin-labs", "Benchmark Capital": "https://angel.co/benchmark-capital", "Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "BackType": "https://angel.co/backtype", "Spindle": "https://angel.co/spindle"}}
+{"name": "erecyclingcorps", "investors": {"Open Air Equity Partners": "https://angel.co/open-air-equity-partners", "RRE Ventures": "https://angel.co/rre-ventures"}}
+{"name": "snapchat", "investors": {"Fidelity Investments": "https://angel.co/fidelity-investments", "SV Angel": "https://angel.co/sv-angel", "General Catalyst Partners": "https://angel.co/general-catalyst-partners", "Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "Codecov": "https://angel.co/codecov"}}
+{"name": "gusto", "investors": {"Elevate Ventures": "https://angel.co/elevate-ventures"}}
+{"name": "spruce-health", "investors": {"GV": "https://angel.co/googleventures", "Cowboy Ventures": "https://angel.co/cowboy-ventures", "Baseline Ventures": "https://angel.co/baseline-ventures", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "livongo", "investors": {}}
+{"name": "fortify", "investors": {}}
+{"name": "enlighted", "investors": {"RockPort Capital": "https://angel.co/rockport-capital", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "RockPort Capital Partners": "https://angel.co/rockport-capital-partners", "Startup Leadership": "https://angel.co/startup-leadership", "Draper Nexus Ventures": "https://angel.co/draper-nexus-ventures", "DFJ": "https://angel.co/dfj", "Intel Capital": "https://angel.co/intel-capital"}}
+{"name": "atarabio", "investors": {}}
+{"name": "appdynamics", "investors": {"Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "Greylock Partners": "https://angel.co/greylock-partners", "Lightspeed Venture Partners": "https://angel.co/lightspeed-venture-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "shazam", "investors": {}}
+{"name": "ring", "investors": {}}
+{"name": "proterra", "investors": {"Silicon Valley Bank": "https://angel.co/silicon-valley-bank", "Vision Ridge Partners": "https://angel.co/vision-ridge-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "spotify", "investors": {"RiteTag": "https://angel.co/ritetag", "The Echo Nest": "https://angel.co/the-echo-nest", "Tigerlily": "https://angel.co/tigerlily", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Founders Fund": "https://angel.co/founders-fund", "Northzone": "https://angel.co/northzone", "VoxTonePRO": "https://angel.co/voxtonepro", "Wellington Partners": "https://angel.co/wellington-partners", "Slingbot (FunnelFeed)": "https://angel.co/slingbot-funnelfeed", "Echonest": "https://angel.co/echonest", "Hakka Labs": "https://angel.co/hakka-labs", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "mymotiv", "investors": {}}
+{"name": "chargepoint", "investors": {"BMW i Ventures": "https://angel.co/bmw-i-ventures"}}
+{"name": "aquion-energy", "investors": {"Foundation Capital": "https://angel.co/foundation-capital", "Bright Capital": "https://angel.co/bright-capital", "CapX Partners": "https://angel.co/capx-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Trinity Capital Investment": "https://angel.co/trinity-capital-investment"}}
+{"name": "farmers-edge", "investors": {}}
+{"name": "dropcam", "investors": {"Felicis Ventures": "https://angel.co/felicis-ventures", "Nest": "https://angel.co/nest", "Menlo Ventures": "https://angel.co/menlo-ventures", "Kapor Capital": "https://angel.co/kapor-capital", "Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "Accel Partners": "https://angel.co/accel-partners", "Google": "https://angel.co/google"}}
+{"name": "mandiant", "investors": {"One Equity Partners": "https://angel.co/one-equity-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "armobio", "investors": {}}
+{"name": "silverspringnet", "investors": {}}
+{"name": "duolingo", "investors": {"Union Square Ventures": "https://angel.co/union-square-ventures", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "uship", "investors": {}}
+{"name": "teladoc", "investors": {"Trident Capital": "https://angel.co/trident-capital", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "BetterHelp": "https://angel.co/betterhelp", "Greenspring Associates": "https://angel.co/greenspring-associates", "Consult A Doctor": "https://angel.co/consult-a-doctor", "Icon Ventures": "https://angel.co/icon-ventures", "HLM Venture Partners": "https://angel.co/hlm-venture-partners"}}
+{"name": "ionic-security", "investors": {"GV": "https://angel.co/googleventures", "Flashpoint at Georgia Tech": "https://angel.co/flashpoint-at-georgia-tech", "Webb Investment Network": "https://angel.co/webb-investment-network", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "zephyr-health", "investors": {}}
+{"name": "crossbar", "investors": {}}
+{"name": "dji", "investors": {}}
+{"name": "shape-security", "investors": {"GV": "https://angel.co/googleventures", "Allegis Capital": "https://angel.co/allegis-capital", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Baseline Ventures": "https://angel.co/baseline-ventures", "Venrock": "https://angel.co/venrock"}}
+{"name": "shyp", "investors": {"Homebrew": "https://angel.co/homebrew-1", "Sherpa Capital": "https://angel.co/sherpaventures", "XG Ventures": "https://angel.co/xg-ventures", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Winklevoss Capital": "https://angel.co/winklevosscap"}}
+{"name": "lending-club", "investors": {"Gold Hill Capital": "https://angel.co/gold-hill-capital", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Silicon Valley Bank": "https://angel.co/silicon-valley-bank", "Union Square Ventures": "https://angel.co/union-square-ventures", "Google Capital": "https://angel.co/google-capital", "Sands Capital Ventures": "https://angel.co/sands-capital-ventures", "Amidzad Partners": "https://angel.co/amidzad-partners", "Dst Global": "https://angel.co/dst-global", "Norwest Venture Partners": "https://angel.co/norwest-venture-partners", "BlackRock": "https://angel.co/blackrock", "Foundation Capital": "https://angel.co/foundation-capital", "Canaan Partners": "https://angel.co/canaan-partners", "Thomvest Ventures": "https://angel.co/thomvest-ventures"}}
+{"name": "waze", "investors": {"Magma Venture Partners": "https://angel.co/magma-venture-partners", "Google": "https://angel.co/google", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "BlueRun Ventures": "https://angel.co/bluerun-ventures", "Horizons Ventures": "https://angel.co/horizons-ventures", "Blue Run Ventures": "https://angel.co/blue-run-ventures"}}
+{"name": "mobcrush", "investors": {"Rincon Venture Partners": "https://angel.co/rincon-venture-partners"}}
+{"name": "nest", "investors": {"GV": "https://angel.co/googleventures", "Google": "https://angel.co/google", "1World Online": "https://angel.co/1world-1", "Dropcam": "https://angel.co/dropcam", "MyEnergy": "https://angel.co/myenergy", "Slow Ventures": "https://angel.co/slow-ventures", "Intertrust": "https://angel.co/intertrust", "Major League Hacking": "https://angel.co/major-league-hacking", "Brandlive": "https://angel.co/brandlive", "Revolv": "https://angel.co/revolv", "Origami Labs": "https://angel.co/origami-labs-1", "Venrock": "https://angel.co/venrock", "Ezee Systems": "https://angel.co/ezee-systems"}}
+{"name": "kinsa", "investors": {"FirstMark Capital": "https://angel.co/firstmark-capital", "Founder Collective": "https://angel.co/founder-collective", "IA Ventures": "https://angel.co/ia-ventures", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "DEMO": "https://angel.co/demo-9"}}
+{"name": "coursera", "investors": {"Times Internet": "https://angel.co/times-internet", "International Finance": "https://angel.co/international-finance-1", "Learn Capital": "https://angel.co/learn-capital", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "GSV Capital": "https://angel.co/gsv-capital"}}
+{"name": "hixme", "investors": {}}
+{"name": "truecaller", "investors": {"Atomico": "https://angel.co/atomico"}}
+{"name": "beyond-meat", "investors": {}}
+{"name": "myfitnesspal", "investors": {"UnderArmour": "https://angel.co/underarmour", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "amazon", "investors": {"Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "UpNext": "https://angel.co/upnext", "Incident Technologies": "https://angel.co/incident-technologies", "Fortified Bicycle": "https://angel.co/fortified-bicycle", "Kiva Systems": "https://angel.co/kiva-systems", "Toymail": "https://angel.co/toymail-co", "Zappos": "https://angel.co/zappos"}}
+{"name": "magicleap", "investors": {}}
+{"name": "coreos", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Fuel Capital": "https://angel.co/fuel-capital", "Work-Bench": "https://angel.co/work-bench", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "farmers-business-network", "investors": {"Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "practice-fusion", "investors": {"ARTIS VENTURES": "https://angel.co/artisventures", "Felicis Ventures": "https://angel.co/felicis-ventures", "Band of Angels": "https://angel.co/band-of-angels", "Western Technology Investment": "https://angel.co/western-technology-investment", "Salesforce": "https://angel.co/salesforce", "SV Angel": "https://angel.co/sv-angel", "Morgenthaler Ventures": "https://angel.co/morgenthaler-ventures"}}
+{"name": "jd", "investors": {}}
+{"name": "sprucefinance", "investors": {}}
+{"name": "redbrick-health", "investors": {"Versant Ventures": "https://angel.co/versant-ventures", "Social Kinetics": "https://angel.co/social-kinetics", "Highland Capital Partners": "https://angel.co/highland-capital-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Fidelity Ventures": "https://angel.co/fidelity-ventures"}}
+{"name": "enphaseenergy", "investors": {}}
+{"name": "doordash", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "CRV": "https://angel.co/crv-1", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Khosla Ventures": "https://angel.co/khosla-ventures", "SV Angel": "https://angel.co/sv-angel", "Y Combinator": "https://angel.co/y-combinator", "Haystack": "https://angel.co/haystack"}}
+{"name": "soundcloud", "investors": {"Doughty Hanson Technology Ventures": "https://angel.co/doughty-hanson-technology-ventures", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Union Square Ventures": "https://angel.co/union-square-ventures", "Factory": "https://angel.co/factory", "Index Ventures": "https://angel.co/index-ventures", "Eniac Ventures": "https://angel.co/eniac-ventures"}}
+{"name": "tesarobio", "investors": {}}
+{"name": "square-inc", "investors": {}}
+{"name": "pulmonx", "investors": {"Latterell Venture Partners": "https://angel.co/latterell-venture-partners", "Montreux Equity Partners": "https://angel.co/montreux-equity-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "POSCO BioVentures": "https://angel.co/posco-bioventures", "Slipstream Medventures": "https://angel.co/slipstream-medventures", "DeNovo Ventures": "https://angel.co/denovo-ventures"}}
+{"name": "slack", "investors": {"Social Capital": "https://angel.co/socialcapital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "looker", "investors": {"First Round Capital": "https://angel.co/first-round-capital", "Pivotnorth Capital": "https://angel.co/pivotnorth-capital", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Redpoint Ventures": "https://angel.co/redpoint-ventures"}}
+{"name": "mango-health", "investors": {"Floodgate": "https://angel.co/floodgate", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "First Round Capital": "https://angel.co/first-round-capital", "Rock Health": "https://angel.co/rockhealth", "Baseline Ventures": "https://angel.co/baseline-ventures", "Bullpen Capital": "https://angel.co/bullpen-capital"}}
+{"name": "foundationmedicine", "investors": {}}
+{"name": "synack", "investors": {"GV": "https://angel.co/googleventures", "Allegis Capital": "https://angel.co/allegis-capital", "Greylock Partners": "https://angel.co/greylock-partners", "Techstars": "https://angel.co/techstars", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "airware", "investors": {"GV": "https://angel.co/googleventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Y Combinator": "https://angel.co/y-combinator", "Lemnos Labs": "https://angel.co/lemnoslabs", "First Round Capital": "https://angel.co/first-round-capital", "Friends and Family": "https://angel.co/friends-and-family"}}
+{"name": "flipboard", "investors": {"SV Angel": "https://angel.co/sv-angel", "Ellerdale": "https://angel.co/ellerdale", "Index Ventures": "https://angel.co/index-ventures", "Feeding Forward": "https://angel.co/feeding-forward"}}
+{"name": "simplivity", "investors": {"Meritech Capital": "https://angel.co/meritech-capital", "Accel Partners": "https://angel.co/accel-partners", "CRV": "https://angel.co/crv-1", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "DFJ": "https://angel.co/dfj"}}
+{"name": "progyny", "investors": {}}
+{"name": "goenjoy", "investors": {}}
+{"name": "remind", "investors": {"First Round Capital": "https://angel.co/first-round-capital", "Social Capital": "https://angel.co/socialcapital", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Imagine K12": "https://angel.co/imagine-k12"}}
+{"name": "pernixdata", "investors": {"Lightspeed Venture Partners": "https://angel.co/lightspeed-venture-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "servicemax", "investors": {"Crosslink Capital": "https://angel.co/crosslink-capital", "Trinity Ventures": "https://angel.co/trinity-ventures", "Emergence Capital Partners": "https://angel.co/emergence-capital-partners"}}
+{"name": "puppetlabs", "investors": {}}
+{"name": "ayasdi", "investors": {"Floodgate": "https://angel.co/floodgate", "Draper Nexus Ventures": "https://angel.co/draper-nexus-ventures"}}
+{"name": "insidesales", "investors": {}}
+{"name": "tradesy", "investors": {"Rincon Venture Partners": "https://angel.co/rincon-venture-partners", "500 Startups": "https://angel.co/500startups", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Launchpad LA": "https://angel.co/launchpadla", "Helpshift": "https://angel.co/helpshift", "Red Swan": "https://angel.co/red-swan"}}
+{"name": "jawbone", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "StatusPage.io": "https://angel.co/statuspage-io", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Narvar": "https://angel.co/narvar", "Khosla Ventures": "https://angel.co/khosla-ventures", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "opower", "investors": {"New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "relayr", "investors": {}}
+{"name": "oculeve", "investors": {}}
+{"name": "betterworks", "investors": {"Pejman Mar Ventures": "https://angel.co/pejman-mar-ventures"}}
+{"name": "pure storage", "investors": {}}
+{"name": "matrixx software", "investors": {}}
+{"name": "quip", "investors": {}}
+{"name": "redfin", "investors": {"Greylock Partners": "https://angel.co/greylock-partners", "Madrona Venture Group": "https://angel.co/madrona-venture-group", "CrunchFund": "https://angel.co/crunchfund", "DFJ": "https://angel.co/dfj", "Tiger Global": "https://angel.co/tiger-global", "Vulcan Capital": "https://angel.co/vulcan-capital"}}
+{"name": "red hat", "investors": {}}
+{"name": "sparks", "investors": {}}
+{"name": "opendns", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Greylock Partners": "https://angel.co/greylock-partners", "Sutter Hill Ventures": "https://angel.co/sutter-hill-ventures", "Cisco": "https://angel.co/cisco", "Lumia Capital": "https://angel.co/lumia-capital"}}
+{"name": "grand rounds", "investors": {}}
+{"name": "linkedin", "investors": {"Rapportive": "https://angel.co/rapportive", "Sequoia Capital": "https://angel.co/sequoia-capital", "Slideshare": "https://angel.co/slideshare", "Greylock Partners": "https://angel.co/greylock-partners", "ProSky": "https://angel.co/prosky", "CardMunch": "https://angel.co/cardmunch", "Bessemer Venture Partners": "https://angel.co/bessemer-venture-partners", "Bizo": "https://angel.co/bizo", "Fliptop": "https://angel.co/fliptop", "Connected": "https://angel.co/connected", "Peerspace": "https://angel.co/peerspace", "Bugsnag": "https://angel.co/bugsnag", "Indextank": "https://angel.co/indextank"}}
+{"name": "troux", "investors": {}}
+{"name": "nextdoor", "investors": {"GV": "https://angel.co/googleventures", "Insight Venture Partners": "https://angel.co/insight-venture-partners", "Greylock Partners": "https://angel.co/greylock-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "Slow Ventures": "https://angel.co/slow-ventures", "Redpoint Ventures": "https://angel.co/redpoint-ventures", "SV Angel": "https://angel.co/sv-angel", "Allen & Company": "https://angel.co/allen-company"}}
+{"name": "appdynamics", "investors": {"Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "Greylock Partners": "https://angel.co/greylock-partners", "Lightspeed Venture Partners": "https://angel.co/lightspeed-venture-partners", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "creativelive", "investors": {"CrunchFund": "https://angel.co/crunchfund", "GV": "https://angel.co/googleventures", "Felicis Ventures": "https://angel.co/felicis-ventures", "Greylock Partners": "https://angel.co/greylock-partners", "Social Capital": "https://angel.co/socialcapital"}}
+{"name": "whosay", "investors": {"Primary Venture Partners": "https://angel.co/primary-venture-partners", "Greylock Partners": "https://angel.co/greylock-partners", "Comcast Ventures": "https://angel.co/comcast-ventures"}}
+{"name": "avi networks", "investors": {}}
+{"name": "xapo", "investors": {"Augur": "https://angel.co/augur", "Machinalis": "https://angel.co/machinalis", "Keego": "https://angel.co/keego", "Taringa!": "https://angel.co/taringa"}}
+{"name": "techprocess", "investors": {"Nokia Growth Partners": "https://angel.co/nokia-growth-partners"}}
+{"name": "domo", "investors": {}}
+{"name": "figma", "investors": {}}
+{"name": "richrelevance", "investors": {"Greylock Partners": "https://angel.co/greylock-partners", "DFJ": "https://angel.co/dfj"}}
+{"name": "swipely", "investors": {"First Round Capital": "https://angel.co/first-round-capital", "Greylock Partners": "https://angel.co/greylock-partners", "Shasta Ventures": "https://angel.co/shasta-ventures"}}
+{"name": "dwnld", "investors": {"Beehive Holdings": "https://angel.co/beehive-holdings-2", "Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "medium", "investors": {"GV": "https://angel.co/googleventures", "Spark Capital": "https://angel.co/spark-capital", "Greylock Partners": "https://angel.co/greylock-partners", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz"}}
+{"name": "dropbox", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Greylock Partners": "https://angel.co/greylock-partners", "CheckiO": "https://angel.co/checkio", "Y Combinator": "https://angel.co/y-combinator", "BlackRock": "https://angel.co/blackrock", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "quotient", "investors": {}}
+{"name": "wrapp", "investors": {"Atomico": "https://angel.co/atomico", "Qualcomm Ventures": "https://angel.co/qualcomm-ventures", "Nordea": "https://angel.co/nordea", "Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "warpdrive bio", "investors": {}}
+{"name": "clearslide", "investors": {"Felicis Ventures": "https://angel.co/felicis-ventures", "Greylock Partners": "https://angel.co/greylock-partners", "Bessemer Venture Partners": "https://angel.co/bessemer-venture-partners", "Comcast Ventures": "https://angel.co/comcast-ventures", "Social Capital": "https://angel.co/socialcapital"}}
+{"name": "cloudera", "investors": {"Ongig": "https://angel.co/ongig", "Greylock Partners": "https://angel.co/greylock-partners", "Outreach": "https://angel.co/outreach", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "edmodo", "investors": {"Greylock Partners": "https://angel.co/greylock-partners", "Tenaya Capital": "https://angel.co/tenaya-capital", "Union Square Ventures": "https://angel.co/union-square-ventures", "KDDI": "https://angel.co/kddi", "Benchmark Capital": "https://angel.co/benchmark-capital", "Index Ventures": "https://angel.co/index-ventures", "Learn Capital": "https://angel.co/learn-capital"}}
+{"name": "workday", "investors": {}}
+{"name": "wealthfront", "investors": {"Maven Ventures": "https://angel.co/maven-ventures", "Social Capital": "https://angel.co/socialcapital", "Greylock Partners": "https://angel.co/greylock-partners", "SK Ventures": "https://angel.co/sk-ventures", "Maven Ventures Growth Labs": "https://angel.co/maven-ventures-growth-labs", "DAG Ventures": "https://angel.co/dag-ventures", "Index Ventures": "https://angel.co/index-ventures", "Dragoneer Investment Group": "https://angel.co/dragoneer-investment-group"}}
+{"name": "lightbend", "investors": {}}
+{"name": "jelly", "investors": {"Spark Capital": "https://angel.co/spark-capital", "Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "rubrik", "investors": {}}
+{"name": "palo alto networks", "investors": {}}
+{"name": "operator", "investors": {"Expa": "https://angel.co/expa", "Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "healthhiway", "investors": {}}
+{"name": "sprig", "investors": {"Social Capital": "https://angel.co/socialcapital", "Greylock Partners": "https://angel.co/greylock-partners", "500 Startups": "https://angel.co/500startups", "Battery Ventures": "https://angel.co/battery-ventures", "MHS Capital": "https://angel.co/mhs-capital", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "eatwith", "investors": {"Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "pandora", "investors": {"Nicereply": "https://angel.co/nicereply", "Paintzen": "https://angel.co/paintzen", "sisu labs": "https://angel.co/sisu-labs-1", "Republic Project": "https://angel.co/republic-project", "digitalundivided": "https://angel.co/digitalundivided", "Silver Key Headhunters": "https://angel.co/silver-key-headhunters", "Right & Exact Entertainment": "https://angel.co/right-exact-entertainment", "Hive": "https://angel.co/hiveteams", "Next Big Sound": "https://angel.co/next-big-sound", "The Town Kitchen": "https://angel.co/the-town-kitchen"}}
+{"name": "musical.ly", "investors": {}}
+{"name": "tellapart", "investors": {"SV Angel": "https://angel.co/sv-angel", "Twitter": "https://angel.co/twitter", "Greylock Partners": "https://angel.co/greylock-partners", "Bain Capital Ventures": "https://angel.co/bain-capital-ventures"}}
+{"name": "docker", "investors": {}}
+{"name": "delphix", "investors": {"Greylock Partners": "https://angel.co/greylock-partners", "Battery Ventures": "https://angel.co/battery-ventures", "Lightspeed Venture Partners": "https://angel.co/lightspeed-venture-partners"}}
+{"name": "zuora", "investors": {"RiteTag": "https://angel.co/ritetag", "Greylock Partners": "https://angel.co/greylock-partners", "Northgate Capital": "https://angel.co/northgate-capital", "Redpoint Ventures": "https://angel.co/redpoint-ventures", "Benchmark Capital": "https://angel.co/benchmark-capital", "Shasta Ventures": "https://angel.co/shasta-ventures", "Vulcan Capital": "https://angel.co/vulcan-capital"}}
+{"name": "meerkat", "investors": {"Slow Ventures": "https://angel.co/slow-ventures", "Sherpa Capital": "https://angel.co/sherpaventures", "Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "instagram", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Benchmark Capital": "https://angel.co/benchmark-capital", "Facebook": "https://angel.co/facebook", "Baseline Ventures": "https://angel.co/baseline-ventures", "Lowercase Capital": "https://angel.co/lowercase-capital"}}
+{"name": "one kings lane", "investors": {}}
+{"name": "picarro", "investors": {}}
+{"name": "convoy", "investors": {"Stanford University": "https://angel.co/stanford-university-1"}}
+{"name": "discord", "investors": {}}
+{"name": "aquantia", "investors": {"Xilinx": "https://angel.co/xilinx", "Greylock Partners": "https://angel.co/greylock-partners", "New Enterprise Associates": "https://angel.co/new-enterprise-associates"}}
+{"name": "trifacta", "investors": {"Ignition Partners": "https://angel.co/ignition-partners", "Greylock Partners": "https://angel.co/greylock-partners", "Data Collective": "https://angel.co/data-collective", "Accel Partners": "https://angel.co/accel-partners"}}
+{"name": "oportun", "investors": {"Institutional Venture Partners": "https://angel.co/institutional-venture-partners", "CRV": "https://angel.co/crv-1", "DAG Ventures": "https://angel.co/dag-ventures", "BlackRock": "https://angel.co/blackrock", "Great Oaks Venture Capital": "https://angel.co/great-oaks-venture-capital", "Greylock Partners": "https://angel.co/greylock-partners"}}
+{"name": "skyhigh networks", "investors": {}}
+{"name": "lyra health", "investors": {}}
+{"name": "tumblr", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Spark Capital": "https://angel.co/spark-capital", "Greylock Partners": "https://angel.co/greylock-partners", "Union Square Ventures": "https://angel.co/union-square-ventures", "Yahoo": "https://angel.co/yahoo", "Betaworks": "https://angel.co/betaworks"}}
+{"name": "vessel", "investors": {"Marketo": "https://angel.co/marketo", "Structure Capital": "https://angel.co/structure-capital", "500 Startups": "https://angel.co/500startups", "Hattery": "https://angel.co/hattery", "GVA Seed Capital Fund": "https://angel.co/gva-seed-capital-fund"}}
+{"name": "rhumbix", "investors": {"StartX": "https://angel.co/startx", "Greylock Partners": "https://angel.co/greylock-partners", "Soma CoLab": "https://angel.co/soma-colab", "Brick & Mortar Ventures": "https://angel.co/brick-mortar-ventures"}}
+{"name": "pullstring", "investors": {}}
+{"name": "silver peak systems", "investors": {}}
+{"name": "bounty jobs", "investors": {}}
+{"name": "sumo logic", "investors": {}}
+{"name": "wildtangent", "investors": {"Advanced Technology Ventures": "https://angel.co/advanced-technology-ventures", "Granite Ventures": "https://angel.co/granite-ventures", "GGV Capital": "https://angel.co/ggv-capital", "Greylock Partners": "https://angel.co/greylock-partners", "Madrona Venture Group": "https://angel.co/madrona-venture-group"}}
+{"name": "gofundme", "investors": {"Enterprise Technology International": "https://angel.co/enterprise-technology-international"}}
+{"name": "jet", "investors": {}}
+{"name": "building robotics", "investors": {}}
+{"name": "anomali", "investors": {}}
+{"name": "tamr", "investors": {"GV": "https://angel.co/googleventures", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Koa Labs": "https://angel.co/koa-labs"}}
+{"name": "jaunt", "investors": {"BSkyB": "https://angel.co/bskyb", "GV": "https://angel.co/googleventures", "SV Angel": "https://angel.co/sv-angel", "Highland Capital Partners": "https://angel.co/highland-capital-partners", "Redpoint Ventures": "https://angel.co/redpoint-ventures"}}
+{"name": "orbital insight", "investors": {}}
+{"name": "hubspot", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Appcues": "https://angel.co/appcues", "General Catalyst Partners": "https://angel.co/general-catalyst-partners", "Pipedrive": "https://angel.co/pipedrive", "Kareer.me": "https://angel.co/kareer-me", "Scale Venture Partners": "https://angel.co/scale-venture-partners", "CheckiO": "https://angel.co/checkio", "Matrix Partners": "https://angel.co/matrix-partners", "Performable": "https://angel.co/performable", "oneforty": "https://angel.co/oneforty", "Wasatch Advisors/Cross Creek Capital": "https://angel.co/wasatch-advisors-cross-creek-capital", "Fidelity Invesments": "https://angel.co/fidelity-invesments"}}
+{"name": "tunein", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "GV": "https://angel.co/googleventures", "General Catalyst Partners": "https://angel.co/general-catalyst-partners", "Institutional Venture Partners": "https://angel.co/institutional-venture-partners"}}
+{"name": "wonder workshop", "investors": {}}
+{"name": "oxford sciences innovation", "investors": {}}
+{"name": "walker and company", "investors": {}}
+{"name": "nest", "investors": {"GV": "https://angel.co/googleventures", "Google": "https://angel.co/google", "1World Online": "https://angel.co/1world-1", "Dropcam": "https://angel.co/dropcam", "MyEnergy": "https://angel.co/myenergy", "Slow Ventures": "https://angel.co/slow-ventures", "Intertrust": "https://angel.co/intertrust", "Major League Hacking": "https://angel.co/major-league-hacking", "Brandlive": "https://angel.co/brandlive", "Revolv": "https://angel.co/revolv", "Origami Labs": "https://angel.co/origami-labs-1", "Venrock": "https://angel.co/venrock", "Ezee Systems": "https://angel.co/ezee-systems"}}
+{"name": "farmers business network", "investors": {}}
+{"name": "ionic security", "investors": {}}
+{"name": "foundation medicine", "investors": {}}
+{"name": "duo security", "investors": {}}
+{"name": "kabam", "investors": {"SK Telecom Ventures": "https://angel.co/sk-telecom-ventures", "GV": "https://angel.co/googleventures", "WonderHill": "https://angel.co/wonderhill", "HackerX": "https://angel.co/hackerx", "Redpoint Ventures": "https://angel.co/redpoint-ventures", "Zerply": "https://angel.co/zerply", "Canaan Partners": "https://angel.co/canaan-partners", "Intel Capital": "https://angel.co/intel-capital"}}
+{"name": "fullstory", "investors": {}}
+{"name": "flatiron health", "investors": {}}
+{"name": "docusign", "investors": {}}
+{"name": "gusto", "investors": {"Elevate Ventures": "https://angel.co/elevate-ventures"}}
+{"name": "cockroach labs", "investors": {}}
+{"name": "collective health", "investors": {}}
+{"name": "savioke", "investors": {"Intel Capital": "https://angel.co/intel-capital", "Northern Light Venture Capital": "https://angel.co/northern-light-venture-capital"}}
+{"name": "blue bottle coffee", "investors": {}}
+{"name": "angellist", "investors": {"Paintzen": "https://angel.co/paintzen", "Rothenberg Ventures": "https://angel.co/rothenberg-ventures", "HireAthena": "https://angel.co/backops-2", "Brilliant Gifts": "https://angel.co/brilliant-gifts", "Slow Ventures": "https://angel.co/slow-ventures", "Spoil": "https://angel.co/spoil", "InCloudCounsel": "https://angel.co/incloudcounsel", "Namecheap": "https://angel.co/namecheap", "Zesty": "https://angel.co/zesty-1", "Rollbar": "https://angel.co/rollbar", "Quest Venture Partners": "https://angel.co/quest-venture-partners"}}
+{"name": "uber", "investors": {"Sherpa Capital": "https://angel.co/sherpaventures", "Benchmark Capital": "https://angel.co/benchmark-capital", "GV": "https://angel.co/googleventures", "Qminder": "https://angel.co/qminder", "RocketSpace": "https://angel.co/rocketspace", "Founder Collective": "https://angel.co/founder-collective", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "CrunchFund": "https://angel.co/crunchfund", "First Round Capital": "https://angel.co/first-round-capital", "ValiMail": "https://angel.co/valimail", "China Minsheng Bank": "https://angel.co/china-minsheng-bank", "Citics Securities": "https://angel.co/citics-securities", "Localize": "https://angel.co/localize", "NodeSource": "https://angel.co/nodesource", "Pretty Instant": "https://angel.co/pretty-instant", "TPG Growth": "https://angel.co/tpg-growth", "Menlo Ventures": "https://angel.co/menlo-ventures"}}
+{"name": "carbon3d", "investors": {}}
+{"name": "kobalt", "investors": {"Balderton Capital": "https://angel.co/balderton-capital", "GV": "https://angel.co/googleventures", "MSD Capital": "https://angel.co/msd-capital"}}
+{"name": "modsy", "investors": {}}
+{"name": "urban engines", "investors": {}}
+{"name": "editas medicine", "investors": {}}
+{"name": "skycatch", "investors": {"GV": "https://angel.co/googleventures", "Runway": "https://angel.co/runway", "Avalon Ventures": "https://angel.co/avalon-ventures", "SK Ventures": "https://angel.co/sk-ventures"}}
+{"name": "coreos", "investors": {"Sequoia Capital": "https://angel.co/sequoia-capital", "Fuel Capital": "https://angel.co/fuel-capital", "Work-Bench": "https://angel.co/work-bench", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers"}}
+{"name": "dialpad", "investors": {}}
+{"name": "one medical group", "investors": {}}
+{"name": "makani", "investors": {}}
+{"name": "23andme", "investors": {"GV": "https://angel.co/googleventures", "Google": "https://angel.co/google", "New Enterprise Associates": "https://angel.co/new-enterprise-associates", "Mohr Davidow Ventures": "https://angel.co/mohr-davidow-ventures"}}
+{"name": "ipierian", "investors": {"Kleiner Perkins Caufield Byers": "https://angel.co/kleiner-perkins-caufield-byers", "MPM Capital": "https://angel.co/mpm-capital", "Biogen Idec": "https://angel.co/biogen-idec", "Highland Capital Partners": "https://angel.co/highland-capital-partners", "Mitsubishi UFJ Capital": "https://angel.co/mitsubishi-ufj-capital", "Sr One": "https://angel.co/sr-one"}}
+{"name": "boku", "investors": {"Sandwich Video": "https://angel.co/sandwich-video", "Andreessen Horowitz": "https://angel.co/andreessen-horowitz", "Benchmark Capital": "https://angel.co/benchmark-capital", "Khosla Ventures": "https://angel.co/khosla-ventures", "Index Ventures": "https://angel.co/index-ventures", "Mopay": "https://angel.co/mopay"}}

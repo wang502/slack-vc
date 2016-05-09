@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import httplib2
 import unicodedata
 import utils
+import io, json, os
 
 portfolio_dict = {
     "a16z": "http://a16z.com/portfolio/venture-growth/",
@@ -26,6 +27,7 @@ name_dict = {
 }
 
 industries = ["advertising", "agriculture-food", "big-data", "chemical-fuels", "consumer", "education", "efficiency", "enterprise", "financial-services", "health", "materials", "power", "robotics", "space", "storage", "transportation"]
+
 
 # Crawl the portfolio list of a16z
 def geta16zPortfilio():
@@ -161,9 +163,9 @@ def getGoogleVenturePostfolio():
         companies[name] = url
     return companies
 
-def getInvestors(company):
+"""def getInvestors(company):
     #url = portfolio_dict['gv']
-    url = "https://angel.co/" + company
+    url = "http://angel.co/" + company
     #url = "https://www.crunchbase.com/organization/facebook/investors?page=2"
     # mock browser header
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
@@ -173,13 +175,51 @@ def getInvestors(company):
     status, response = http.request(url, 'GET', None, headers)
 
     soup = BeautifulSoup(response)
-    response = " "
+
     investors = {}
+    #print soup.find_all("a", {"class":"startup-link"})
     for a in soup.find_all("a", {"class":"startup-link"}):
         name = a.get_text()
         if name != "":
             investors[name] = a.get('href')
     return investors
+"""
+
+def getInvestors(company):
+    investors = {}
+    with io.open("companies.txt") as f:
+        for line in f:
+            c = json.loads(line)
+            if c["name"] == company:
+                investors = c["investors"]
+    return investors
+
+def writeCompany(company):
+    url = "http://angel.co/" + company
+    #url = "https://www.crunchbase.com/organization/facebook/investors?page=2"
+    # mock browser header
+    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+    headers = { 'User-Agent' : user_agent }
+
+    http = httplib2.Http()
+    status, response = http.request(url, 'GET', None, headers)
+
+    soup = BeautifulSoup(response)
+
+    investors = {}
+    for a in soup.find_all("a", {"class":"startup-link"}):
+        name = a.get_text()
+        if name != "":
+            investors[name] = a.get('href')
+    c = {"name":company, "investors":investors}
+    with io.open('companies.txt', 'a', encoding='utf-8') as f:
+        f.write(unicode(json.dumps(c, ensure_ascii=False)) + u'\n')
+        #json.dump(c, f)
+        #f.write(os.linesep)
+
+def writeCompanies(companies):
+    for company in companies:
+        writeCompany(company)
 
 def getPortfolio(vc):
     #vc = vc.lower()
@@ -201,7 +241,7 @@ def getPortfolio(vc):
 def getVCName(acronym):
     return name_dict[acronym]
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
 	#print geta16zPortfilio()
     #print getKhoslaPortfolio()
     #print getSequoiaPortfolio()
@@ -209,4 +249,22 @@ def getVCName(acronym):
     #print getFFPortfolio()
     #print getGreylockPortfolio()
     #print getGoogleVenturePostfolio()
+    #writeInvestors("slack")
+
+    vcs = ["a16z", "khosla", "sequoia", "ff", "kpcb", "greylock", "gv"]
+    companies = {}
+    companies_2 = []
+    for vc in vcs:
+        p = getPortfolio(vc)
+        for key in p.keys():
+            if key not in companies:
+                companies_2.append(key)
+                companies[key] = True
+    for company in companies_2:
+        name = company.replace(u'\xa0', u"-")
+        name = name.replace(u'\u2019', u"-")
+        name = str(name).lower()
+        writeCompany(name)
+        print name + " written"
+
     #print getInvestors("slack")
